@@ -135,8 +135,7 @@ header{
 
 }
 #menu2{
-    display:block;
-    
+    display:none;
     position: absolute;
     width: 95%;
     border-radius: 10px;
@@ -149,5 +148,8 @@ header{
  
  }
 #nav.active #menu{
+    display:block;
+}
+#nav2.active2 #menu2{
     display:block;
 }
