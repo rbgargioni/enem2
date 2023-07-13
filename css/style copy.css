@@ -1,0 +1,153 @@
+:root{
+    --color-amarelo:#FFDD58;
+    --color-cinza:rgb(39,39,39);
+    --color-cinza-enem:rgb(49,49,49);
+    --color-branco:white;
+    --color-font-roxo: #551a8b;
+}
+body {
+    font-family: 'Big Shoulders Display', cursiva;
+    text-decoration: none;
+    justify-content: space-evenly;
+    font-size: 1.6rem;
+    -webkit-box-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    
+}
+
+
+/* Cabeçalho*/
+header{
+    width:100%;
+    height: 100%;
+    background: var(--color-cinza);
+    padding-bottom: 0.5rem;
+    text-align: center;
+    padding-top: 20px;
+    box-shadow: 0 0.1rem 0.5rem #8f8e8e ;
+}
+.container-principal{
+    
+    margin-bottom: 2rem;
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: center;
+    background: var(--color-amarelo);
+    
+}
+.container-propaganda{
+    display: flex;
+    justify-content: center;
+    padding: 6rem 12rem 0px;
+    text-align: center;
+}
+.conexao{
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--color-cinza-enem);
+    
+}
+.enem{
+    font-size: 95px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--color-cinza-enem);
+    
+}
+#imagem-menina{
+    width: 400px;
+    margin-left: 4rem;
+}
+.texto-conexao-enem{
+    position:relative;
+    width: 310px;
+    background: white;
+    border-radius: 32px;
+    padding: 32px 0px;
+    box-shadow: 0 0.1rem 0.5rem #8f8e8e ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+    transition: all 0.5s ease 0s;
+    opacity: 0.9;
+    position: relative;
+    margin-bottom: 4rem;
+}
+.texto2{
+    padding: 20px 25px;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--color-font-roxo);
+    margin-bottom: 40px;
+}
+.botao{
+    
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    padding: 1rem 5.2rem;
+    margin: 45px;
+    font-weight: 500;
+    line-height: 21px;
+    background: rgb(254, 101, 79);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.1s ease 0s;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.botao-aulas{
+    
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    padding: 1rem ;
+    margin: 10px 25px;
+    font-weight: 500;
+    line-height: 21px;
+    background: rgb(254, 101, 79);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.1s ease 0s;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 0.1rem 0.5rem #8f8e8e ;
+    text-transform: uppercase;
+}
+
+#menu{
+   display:none;
+   
+   position: absolute;
+   width: 95%;
+   border-radius: 10px;
+   margin: 10px;
+   top: 280px;
+   right: -310px;
+   background: var(--color-branco);
+   height: calc(50vh - 115px);
+   box-shadow: 0 0.1rem 0.5rem #8f8e8e ;
+
+}
+#menu2{
+    display:block;
+    
+    position: absolute;
+    width: 95%;
+    border-radius: 10px;
+    margin: 10px;
+    top: 0px;
+    right: -610px;
+    background: var(--color-branco);
+    height: calc(145vh - 10px);
+    box-shadow: 0 0.1rem 0.5rem #8f8e8e ;
+ 
+ }
+#nav.active #menu{
+    display:block;
+}
