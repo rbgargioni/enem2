@@ -153,3 +153,19 @@ header{
 #nav2.active2 #menu2{
     display:block;
 }
+@media  screen and (max-width:740px){
+    header{
+        width: 75vh;
+        text-align: center;
+    
+    }
+    .container-principal{
+        width: 75vh;
+    }
+    .texto-de-apoio{
+        display: none;
+    }
+    .texto-conexao-enem{
+        width: 310px;
+    }
+}
