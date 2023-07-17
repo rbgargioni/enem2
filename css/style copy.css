@@ -166,18 +166,13 @@ header{
    box-shadow: 0 0.1rem 0.5rem #8f8e8e ;
  
  }
- /*.mobile{
+  #imagem-menina-interna{
     display: none;
- }
- #imagem-menina-interna{
+  }
+   .mobile{
     display: none;
-} */
-/*#nav.active #menu{
-    display:block;
-}
-#nav2.active2 #menu2{
-    display:block;
-}*/
+   } 
+
 @media  screen and (max-width:1024px){
     header{
         width: 135vh;
@@ -233,6 +228,9 @@ header{
     .titulo{
         text-align: center;
     }
+       .mobile{
+        display: grid;
+       } 
 }
 
 @media  screen and (max-width:425px){
@@ -260,8 +258,7 @@ header{
         display: none;
     }
     #imagem-menina-interna{
-        display: grid;
-        position:initial;
+        display: none;
     }
     .texto2{
         padding: 20px 25px 0px 25px;
@@ -269,5 +266,8 @@ header{
         font-size: 20px;
         color: var(--color-font-roxo);
         margin-bottom: 5px;
+    }
+    .container-propaganda{
+        max-height: 350px;
     }
 }
