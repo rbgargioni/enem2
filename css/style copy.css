@@ -87,7 +87,7 @@ header{
     
     font-size: 16px;
     font-family: Poppins, sans-serif;
-    padding: 1rem 5.2rem;
+    padding: 0.1rem 5rem;
     margin: 10px 45px 10px 45px;
     font-weight: 500;
     line-height: 21px;
@@ -119,10 +119,19 @@ header{
     box-shadow: 0 0.1rem 0.5rem #8f8e8e ;
     text-transform: uppercase;
 }
+.titulo{
+    font-size: 26px;
+    font-weight: 900;
+    margin: 0px 0px 20px 0px;
+    background-color: #FFDD58;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0 0.1rem 0.5rem #8f8e8e ;
+
+
+}
 
 #menu{
    display:none;
-
    position: absolute;
    width: 90%;
    border-radius: 25px;
@@ -130,29 +139,45 @@ header{
    top: 0px;
    right: -310px;
    background: var(--color-branco);
-   height: calc(90vh - 10px);
    box-shadow: 0 0.1rem 0.5rem #8f8e8e ;
 
 }
 #menu2{
-    display:none;
-    position: absolute;
-    width: 95%;
-    border-radius: 10px;
-    margin: 10px;
-    top: 0px;
-    right: -610px;
-    background: var(--color-branco);
-    height: calc(145vh - 10px);
-    box-shadow: 0 0.1rem 0.5rem #8f8e8e ;
+   display:none;
+   position: absolute;
+   width: 90%;
+   border-radius: 25px;
+   margin: 10px;
+   top: 0px;
+   right: -310px;
+   background: var(--color-branco);
+   box-shadow: 0 0.1rem 0.5rem #8f8e8e ;
  
  }
-#nav.active #menu{
+ #menu3{
+   display:none;
+   position: absolute;
+   width: 90%;
+   border-radius: 25px;
+   margin: 10px;
+   top: 0px;
+   right: -310px;
+   background: var(--color-branco);
+   box-shadow: 0 0.1rem 0.5rem #8f8e8e ;
+ 
+ }
+ .mobile{
+    display: none;
+ }
+ #imagem-menina-interna{
+    display: none;
+}
+/*#nav.active #menu{
     display:block;
 }
 #nav2.active2 #menu2{
     display:block;
-}
+}*/
 @media  screen and (max-width:1024px){
     header{
         width: 135vh;
@@ -170,26 +195,57 @@ header{
 
 @media  screen and (max-width:768px){
     header{
-        width: 100vh;
+        width: 90vh;
         text-align: center;
     
     }
     .container-principal{
-        width: 100vh;
+        width: 90vh;
     }
     
     .texto-conexao-enem{
         width: 310px;
     }
+    #imagem-menina-interna{
+        max-width: 60%;
+        display: block;
+        margin-left: 60px;
+    }
+    #imagem-menina {
+        width: 200px;
+        margin-left: 4rem;
+
+    }
+    .texto-de-apoio{
+       display: none;
+    }
+    .botao{
+        display: none;
+    }
+    .menu-mobile{
+        display:grid;
+        grid-template-columns: repeat(3, 2fr);
+        padding-bottom: 20px;
+    }
+    #nav-mobile{
+        margin: 20px;
+    }
+    .titulo{
+        text-align: center;
+    }
 }
+
 @media  screen and (max-width:425px){
+    main{
+        width: 72vh;
+    }
     header{
-        width: 65vh;
+        width: 72vh;
         text-align: center;
     
     }
     .container-principal{
-        width: 65vh;
+        width: 72vh;
     }
     .container-propaganda{
         height: 60vh;
@@ -202,5 +258,16 @@ header{
     }
     .botao{
         display: none;
+    }
+    #imagem-menina-interna{
+        display: grid;
+        position:initial;
+    }
+    .texto2{
+        padding: 20px 25px 0px 25px;
+        font-weight: 700;
+        font-size: 20px;
+        color: var(--color-font-roxo);
+        margin-bottom: 5px;
     }
 }
