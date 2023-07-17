@@ -88,7 +88,7 @@ header{
     font-size: 16px;
     font-family: Poppins, sans-serif;
     padding: 1rem 5.2rem;
-    margin: 45px;
+    margin: 10px 45px 10px 45px;
     font-weight: 500;
     line-height: 21px;
     background: rgb(254, 101, 79);
@@ -104,8 +104,8 @@ header{
     
     font-size: 16px;
     font-family: Poppins, sans-serif;
-    padding: 1rem ;
-    margin: 10px 25px;
+    padding: 5px ;
+    margin: 5px 25px;
     font-weight: 500;
     line-height: 21px;
     background: rgb(254, 101, 79);
@@ -124,13 +124,13 @@ header{
    display:none;
 
    position: absolute;
-   width: 95%;
-   border-radius: 10px;
+   width: 90%;
+   border-radius: 25px;
    margin: 10px;
-   top: 280px;
+   top: 0px;
    right: -310px;
    background: var(--color-branco);
-   height: calc(50vh - 115px);
+   height: calc(90vh - 10px);
    box-shadow: 0 0.1rem 0.5rem #8f8e8e ;
 
 }
