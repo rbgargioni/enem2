@@ -166,12 +166,12 @@ header{
    box-shadow: 0 0.1rem 0.5rem #8f8e8e ;
  
  }
- .mobile{
+ /*.mobile{
     display: none;
  }
  #imagem-menina-interna{
     display: none;
-}
+} */
 /*#nav.active #menu{
     display:block;
 }
