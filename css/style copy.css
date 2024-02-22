@@ -18,27 +18,36 @@ body {
     overflow-x: hidden;
     
 }
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 
 
 /* Cabeçalho*/
 header{
+    position: absolute;
     width:100%;
-    height: 100%;
+    height: 3%;
     background: var(--color-cinza);
     padding-bottom: 0.5rem;
     text-align: center;
     padding-top: 20px;
     box-shadow: 0 0.1rem 0.5rem #8f8e8e ;
 }
-.container-principal{
-    
+#ARTES #artesano1 #artesano2 {
+    display: none;
+}
+.container-principal {
     margin-bottom: 2rem;
     display: flex;
-    -webkit-box-pack: end;
     justify-content: center;
+    align-items: center; /* Alinha o conteúdo verticalmente no centro */
+    min-height: 100vh; /* Define a altura mínima como 100% da altura da viewport */
     background: var(--color-amarelo);
-    
 }
+
 .container-propaganda{
     display: flex;
     justify-content: center;
@@ -63,7 +72,21 @@ header{
     width: 400px;
     margin-left: 4rem;
 }
-.texto-conexao-enem{
+.texto-conexao-enem {
+    position: absolute;
+    top: calc(50% + 10px); /* Adiciona 50px ao valor original de 50% */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 746px;
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0.1rem 0.5rem #8f8e8e;
+    transition: all 0.5s ease 0s;
+    opacity: 0.9;
+}
+
+.texto-conexao-enem2{
     position:relative;
     width: 310px;
     background: white;
@@ -100,12 +123,17 @@ header{
     text-align: center;
     text-decoration: none;
 }
-.botao-aulas{
-    
+.container-propaganda .tabela1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Quatro disciplinas por linha */
+    gap: 20px;
+}
+
+.botao-aulas {
     font-size: 16px;
-    font-family: Poppins, sans-serif;
-    padding: 5px ;
-    margin: 5px 25px;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    margin: 5px;
     font-weight: 500;
     line-height: 21px;
     background: rgb(254, 101, 79);
@@ -116,9 +144,21 @@ header{
     display: block;
     text-align: center;
     text-decoration: none;
-    box-shadow: 0 0.1rem 0.5rem #8f8e8e ;
+    box-shadow: 0 0.1rem 0.5rem #8f8e8e;
     text-transform: uppercase;
 }
+
+/* Adicione estas regras para tornar responsivo */
+@media screen and (max-width: 1024px) {
+    .container-propaganda .tabela1 {
+        grid-template-columns: repeat(3, 1fr); /* Três disciplinas por linha em telas menores que 1024px */
+    }
+    .container-propaganda .descricao {
+        grid-template-columns: repeat(3, 1fr); /* Três disciplinas por linha em telas menores que 1024px */
+    }
+}
+
+
 .titulo{
     font-size: 26px;
     font-weight: 900;
@@ -173,6 +213,18 @@ header{
     display: none;
    } 
 
+/* Adicione estas regras para tornar responsivo */
+@media screen and (max-width: 768px) {
+    nav.tabela1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 425px) {
+    nav.tabela1 {
+        grid-template-columns: 1fr;
+    }
+}
 @media  screen and (max-width:1024px){
     header{
         width: 135vh;

@@ -91,7 +91,7 @@ header{
 }
 #tabela1{
     display:grid;
-    grid-template-columns: repeat(3, 2fr);
+    grid-template-columns: repeat(4, 10fr);
     padding-bottom: 20px;
     
 }
