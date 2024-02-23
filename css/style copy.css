@@ -49,9 +49,9 @@ header{
 }
 
 .container-propaganda{
-    display: flex;
+    display: grid;
     justify-content: center;
-    padding: 6rem 12rem 0px;
+    
     text-align: center;
 }
 .conexao{
@@ -61,6 +61,22 @@ header{
     color: var(--color-cinza-enem);
     
 }
+.tituloaba1{
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--color-cinza-enem);
+    margin-bottom: 3rem;
+    
+}
+.tituloaba2{
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--color-cinza-enem);
+    margin-bottom: 2rem;
+}
+
 .enem{
     font-size: 95px;
     font-weight: 900;
@@ -84,21 +100,24 @@ header{
     box-shadow: 0 0.1rem 0.5rem #8f8e8e;
     transition: all 0.5s ease 0s;
     opacity: 0.9;
+    
 }
 
-.texto-conexao-enem2{
-    position:relative;
-    width: 310px;
+.texto-conexao-enem2 {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Ajuste o número de colunas conforme necessário */
+    gap: 20px;
+    width: 746px;
     background: white;
     border-radius: 32px;
     padding: 32px 0px;
-    box-shadow: 0 0.1rem 0.5rem #8f8e8e ;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+    box-shadow: 0 0.1rem 0.5rem #8f8e8e;
     transition: all 0.5s ease 0s;
     opacity: 0.9;
-    position: relative;
     margin-bottom: 4rem;
 }
+
 .texto2{
     padding: 20px 25px;
     font-weight: 700;
@@ -107,7 +126,6 @@ header{
     margin-bottom: 40px;
 }
 .botao{
-    
     font-size: 16px;
     font-family: Poppins, sans-serif;
     padding: 0.1rem 5rem;
@@ -128,7 +146,16 @@ header{
     grid-template-columns: repeat(5, 1fr); /* Quatro disciplinas por linha */
     gap: 20px;
 }
-
+.container-propaganda .tabela2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Quatro disciplinas por linha */
+    gap: 20px;
+}
+.container-propaganda .tabela3 {
+    display: grid;
+   
+    gap: 0px;
+}
 .botao-aulas {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
@@ -140,13 +167,49 @@ header{
     color: rgb(255, 255, 255);
     border: none;
     border-radius: 10px;
-    transition: background-color 0.1s ease 0s;
+    transition: background-color 0.3s ease 0s;
     display: block;
     text-align: center;
     text-decoration: none;
     box-shadow: 0 0.1rem 0.5rem #8f8e8e;
     text-transform: uppercase;
+    cursor: pointer;   
 }
+
+#container_aula :hover{
+    padding-right:  5.5px;
+}
+
+#palavra1{
+    color: var(--color-font-roxo);
+}
+#palavra2{
+    text-transform: uppercase;
+}
+.botao-aulas:hover {
+    background-color: #551a8b; /* Cor de destaque quando o mouse passa por cima */
+    color: white; /* Cor do texto quando o mouse passa por cima */
+  }
+
+
+  #container_aula{
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 0.5em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0.1rem 0.2rem #8f8e8e ;
+    cursor: pointer; 
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
 
 /* Adicione estas regras para tornar responsivo */
 @media screen and (max-width: 1024px) {
@@ -166,8 +229,6 @@ header{
     background-color: #FFDD58;
     border-radius: 20px 20px 0px 0px;
     box-shadow: 0 0.1rem 0.5rem #8f8e8e ;
-
-
 }
 
 #menu{
@@ -180,8 +241,8 @@ header{
    right: -310px;
    background: var(--color-branco);
    box-shadow: 0 0.1rem 0.5rem #8f8e8e ;
-
 }
+
 #menu2{
    display:none;
    position: absolute;
@@ -191,9 +252,9 @@ header{
    top: 0px;
    right: -310px;
    background: var(--color-branco);
-   box-shadow: 0 0.1rem 0.5rem #8f8e8e ;
- 
+   box-shadow: 0 0.1rem 0.5rem #8f8e8e ; 
  }
+
  #menu3{
    display:none;
    position: absolute;
@@ -204,8 +265,8 @@ header{
    right: -310px;
    background: var(--color-branco);
    box-shadow: 0 0.1rem 0.5rem #8f8e8e ;
- 
  }
+
   #imagem-menina-interna{
     display: none;
   }
