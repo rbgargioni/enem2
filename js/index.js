@@ -23,9 +23,10 @@ function verificarFragmento() {
 }
 // função de cliques para compartilhamento
 function executarArtesano1() { clickMenu1(); artesvolume1();} 
+function executarArtesano2() { clickMenu1(); artesvolume2();} 
 
 
-
+///////////////////// Menu de Artes////////////////////////////// 
 function clickMenu1() {
     var menuArtes = document.getElementById("ARTES");
     var menuPrincipal = document.getElementById("menuprincipal");
@@ -46,11 +47,20 @@ function artesvolume2(){
     artesano2.style.display = "block";
     aulasartes.style.display = "none";
 }
-function artesvolume3(){
-    artesano3.style.display = "block";
-    aulasartes.style.display = "none";
-}
 
+
+///////////////////// Menu de Biologia//////////////////////////////
+function clickMenu2() {
+    var menuBiologia = document.getElementById("BIOLOGIA");
+    var menuPrincipal = document.getElementById("menuprincipal");
+    // Verifica se o menu está visível
+    var isVisible = window.getComputedStyle(menuBiologia).display !== "none";
+
+    // Alterna a visibilidade do menu
+    menuBiologia.style.display = isVisible ? "none" : "block";
+    menuprincipal.style.display = "none";
+    menuBiologia.style.display = "block";
+}
 
 function voltar(){
     var menuArtes = document.getElementById("ARTES");
