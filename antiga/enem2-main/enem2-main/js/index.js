@@ -3,28 +3,6 @@ var menuArtes = document.getElementById("ARTES");
 menuArtes.style.display = "none";
 artesano1.style.display = "none";
 artesano2.style.display = "none";
-artesano3.style.display = "none";
-
-
-// Função que verifica o fragmento da URL para executar a função correspondente
-function verificarFragmento() {
-    // Obtém o fragmento da URL
-    const fragmento = window.location.hash.substring(1); // Remove o '#'
-    
-    // Verifica se o fragmento está presente
-    if (fragmento) {
-        // Verifica se a função existe antes de chamá-la
-        if (typeof window[fragmento] === 'function') {
-            window[fragmento]();
-        } else {
-            console.error('Função não encontrada:', fragmento);
-        }
-    }
-}
-// função de cliques para compartilhamento
-function executarArtesano1() { clickMenu1(); artesvolume1();} 
-
-
 
 function clickMenu1() {
     var menuArtes = document.getElementById("ARTES");
@@ -38,7 +16,6 @@ function clickMenu1() {
     aulasartes.style.display = "block";
 }
 function artesvolume1(){
-   // window.location.hash = 'artesvolume1';
     artesano1.style.display = "block";
     aulasartes.style.display = "none";
 }
@@ -46,12 +23,6 @@ function artesvolume2(){
     artesano2.style.display = "block";
     aulasartes.style.display = "none";
 }
-function artesvolume3(){
-    artesano3.style.display = "block";
-    aulasartes.style.display = "none";
-}
-
-
 function voltar(){
     var menuArtes = document.getElementById("ARTES");
     menuArtes.style.display = "none";
@@ -62,6 +33,38 @@ for (var i = 0; i < elementosDescricao.length; i++) {
     elementosDescricao[i].style.display = "none";
 }
 }
-verificarFragmento();
 
+
+function clickMenu2(){
+    if (ARTES.style.display == 'block'){
+        ARTES.style.display = 'none'
+    }
+    else{
+        ARTES.style.display = 'block'
+        ARTES.style.display = 'none'
+        ARTES.style.display = 'none'
+    }
+}
+ 
+function clickMenu2(){
+    if (menu2.style.display == 'block'){
+        menu2.style.display = 'none'
+    }
+    else{
+        menu.style.display = 'none'
+        menu2.style.display = 'block'
+        menu3.style.display = 'none'
+    }
+}
+
+function clickMenu3(){
+    if (menu3.style.display == 'block'){
+        menu3.style.display = 'none'
+    }
+    else{
+        menu.style.display = 'none'
+        menu2.style.display = 'none'
+        menu3.style.display = 'block'
+    }
+}
  
