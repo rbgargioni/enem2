@@ -16,13 +16,20 @@
         <a href=""><img src="./acess/logo_aulalivre.svg" alt=""></a>
     </header>
     <main>
+        
         <div class="container-principal" id="diciplinas">
+            
         <section class="container-propaganda">
+            
             <div class="texto-conexao-enem" id="menuprincipal">
+                
                 <p class="conexao">conexão</p>
                 <p class="enem">enem</p>
-                <p class="texto2">CENTENAS DE QUESTÕES VAMOS ESTUDAR? ENTÃO SE LIGA NAS AULA.</p>
-                <img id="imagem-menina-interna" src="./acess/people-banner.png" alt="">
+                
+                    <p class="texto2">CENTENAS DE QUESTÕES VAMOS ESTUDAR? ENTÃO SE LIGA NAS AULA.</p>
+                    
+           
+                
                 <nav class="tabela1" >
                     <button id="btn-mobile" class="botao-aulas" onclick="clickMenu1()" href="">ARTES</button>
                     <button id="btn-mobile2" class="botao-aulas" onclick="clickMenu2()" href="">BIOLOGIA</button>
@@ -54,7 +61,7 @@
                 <div class="tabela2 " id="aulasartes">
                     <nav class="tabela2">
                         <button id="btn-mobile15" class="botao-aulas" onclick="artesvolume1()" href="">ARTE - VOLUME 1</button>
-                        <button id="btn-mobile15" class="botao-aulas" onclick="artesvolume2()" href="">ARTE - VOLUME 2</button>
+                        <button id="btn-mobile15" class="botao-aulas" onclick="artesvolume2()" href=""> ARTE - VOLUME 2</button>
                     </nav>    
                 </div>
                 <div class="descricao tabela" id="artesano1">                    
@@ -172,12 +179,13 @@
         </div>
 
         <!-- Menu de BIOLOGIA -->
-                <div class="texto-conexao-enem2" id="BIOLOGIA">
-                    <nav class="container-propaganda">
+        <div class="texto-conexao-enem2" id="BIOLOGIA">
+                <nav class="container-propaganda">
                         <div class="tabela2 " id="aulasbiologia">
                             <nav class="tabela2">
-                                <button id="btn-mobile15" class="botao-aulas" onclick="biologiavolume1()" href="">BIOLOGIA - VOLUME 1</button>
-                                <button id="btn-mobile15" class="botao-aulas" onclick="biologiavolume2()" href="">BIOLOGIA - VOLUME 2</button>
+                                <button id="btn-mobile15" class="botao-aulas" onclick="biologiaAno1()" href="">BIOLOGIA - VOLUME 1</button>
+                                <button id="btn-mobile15" class="botao-aulas" onclick="biologiaAno2()" href="">BIOLOGIA - VOLUME 2</button>
+                                <button id="btn-mobile15" class="botao-aulas" onclick="biologiaAno3()" href="">BIOLOGIA - VOLUME 3</button>
                             </nav>    
                         </div>
                         <!--Biologia Volume 1-->
@@ -205,7 +213,7 @@
                                 <div id="container_aula">
                                         <h1 id="palavra2">Botânica Básica</h1>
                                         <p><a href="https://plataforma.aulalivre.net/disciplina/biologia/10---botanica/botanicabasica-reprise-aovivo-2017"> <img src="../acess/videos-solid-24.png" alt=""></a></p>
-                              
+                                </div>
                                 <div id="container_aula">                           
                                     <h1 id="palavra2">Citoplasma I : Organelas</h1>
                                     <p><a href="https://plataforma.aulalivre.net/disciplina/biologia/03---citologia/citologia-citoplasma-i"> <img src="../acess/videos-solid-24.png" alt=""></a></p>        
@@ -324,7 +332,7 @@
                                     <p><a href="https://plataforma.aulalivre.net/disciplina/atualidades/04---dossie-do-plastico/dossie-do-plastico-ep7-degradacao-decomposicao"></a><img src="../acess/videos-solid-24.png" alt=""></p>
                                 </div>
                             
-
+                                <button id="btn-mobile15" class="botao-aulas" onclick="voltar()" href="">Voltar</button>   
                             </nav>
                         </div>
                         <!--Biologia Volume 2-->
@@ -383,10 +391,10 @@
                                         <p class="palavra2">Angiosperma II</p>
                                         <p><a href="https://plataforma.aulalivre.net/disciplina/biologia/03---citologia/replicacao-dna"></a><img src="../acess/videos-solid-24.png" alt=""></p>
                                 </div> 
-
+                                <div id="container_aula">
                                 <p class="palavra2">Classificação dos órgão vegetais</p>
                                 <p><a href="https://plataforma.aulalivre.net/disciplina/biologia/10---botanica/classificacao-dos-orgaos-vegetais" ></a> <img src="../acess/videos-solid-24.png" alt=""></p>
-                                
+                                </div>
                                 <div id="container_aula">
                                 <p class="palavra2">Histologia vegetal I</p>
                                 <p><a href="https://plataforma.aulalivre.net/disciplina/biologia/10---botanica/histologia-vegetal-i" ></a><img src="../acess/videos-solid-24.png" alt=""></p>
@@ -653,11 +661,9 @@
                                 </div>
 
                                 <button id="btn-mobile15" class="botao-aulas" onclick="voltar()" href="">Voltar</button>                </nav>
-                                </div>
-                            </nav>
-                        </div>
+                        </div> 
                          <!--Biologia Volume 3-->
-                         <div class="descricao tabela" id="biologiano3">                    
+                        <div class="descricao tabela" id="biologiano3">                    
                             <p class="tituloaba1">Aulas recomendadas - Lição 14: CITOLOGIA – moléculas, células e tecidos</p>
                             <nav class="tabela3">
                                 <div id="container_aula">
@@ -690,7 +696,7 @@
                                     <p><a href="https://plataforma.aulalivre.net/disciplina/biologia/03---citologia/citologia-citoplasma-iv" target="_blank"><img src="../acess/videos-solid-24.png" alt=""></a></p>
                                 </div>
 
-                                <p class="palavra2">Aulas recomendadas - Lição 15: GENÉTICA – hereditariedade e diversidade</p>
+                                <p class="tituloaba1">Aulas recomendadas - Lição 15: GENÉTICA – hereditariedade e diversidade</p>
                                 <div id="container_aula">
                                     <p class="palavra2">Conceitos e vocabulário I</p>
                                     <p><a href="https://plataforma.aulalivre.net/disciplina/biologia/11---genetica-/genetica-i-conceitos-e-vocabulario" target="_blank"><img src="../acess/videos-solid-24.png" alt=""></a></p>
@@ -711,7 +717,7 @@
                                     <p><a href="https://plataforma.aulalivre.net/disciplina/biologia/11---genetica-/genetica-iv-primeira-lei-de-mendel-e-probabilidade" target="_blank"><img src="../acess/videos-solid-24.png" alt=""></a></p>
                                 </div>
                                 
-                                <p class="palavra2">Aulas recomendadas - Lição 17: ECOLOGIA – ciências ambientais e biodiversidade</p>
+                                <p class="tituloaba1">Aulas recomendadas - Lição 17: ECOLOGIA – ciências ambientais e biodiversidade</p>
                                 <div id="container_aula">
                                     <p class="palavra2">Ecologia VIII</p>
                                     <p><a href="https://plataforma.aulalivre.net/disciplina/biologia/12---ecologia/ecologia-viii" target="_blank"><img src="../acess/videos-solid-24.png" alt=""></a></p>
@@ -752,7 +758,7 @@
                                     <p><a href="https://plataforma.aulalivre.net/disciplina/biologia/12---ecologia/ecologia-vii" target="_blank"><img src="../acess/videos-solid-24.png" alt=""></a></p>
                                 </div>
                                 
-                                <p class="palavra2">Aulas recomendadas - Lição 18: SERES VIVOS E SUAS INTERAÇÕES</p>
+                                <p class="tituloaba1">Aulas recomendadas - Lição 18: SERES VIVOS E SUAS INTERAÇÕES</p>
                                 <div id="container_aula">
                                     <p class="palavra2">Ecologia III</p>
                                     <p><a href="https://plataforma.aulalivre.net/disciplina/biologia/12---ecologia/ecologia-iii" target="_blank"><img src="../acess/videos-solid-24.png" alt=""></a></p>
@@ -793,7 +799,7 @@
                                     <p><a href="https://plataforma.aulalivre.net/disciplina/biologia/04---microbiologia/seres-vivos-inferiores-ii-fungos" target="_blank"><img src="../acess/videos-solid-24.png" alt=""></a></p>
                                 </div>
                                 
-                                <p class="palavra2">Aulas recomendadas: Lição 19 - QUALIDADE DE VIDA E SAÚDE</p>
+                                <p class="tituloaba1">Aulas recomendadas: Lição 19 - QUALIDADE DE VIDA E SAÚDE</p>
                                 <div id="container_aula">
                                     <p class="palavra2">Sistema Endócrino</p>
                                     <p><a href="https://plataforma.aulalivre.net/disciplina/biologia/07---fisiologia-animal/sistema-endocrino" target="_blank"><img src="../acess/videos-solid-24.png" alt=""></a></p>
@@ -814,7 +820,7 @@
                                     <p><a href="https://plataforma.aulalivre.net/disciplina/biologia/04---microbiologia/bacterioses" target="_blank"><img src="../acess/videos-solid-24.png" alt=""></a></p>
                                 </div>
                                 
-                                <p class="palavra2">Aulas recomendadas: Lição 20 - FISIOLOGIA ANIMAL E VEGETAL</p>
+                                <p class="tituloaba1">Aulas recomendadas: Lição 20 - FISIOLOGIA ANIMAL E VEGETAL</p>
                                 <div id="container_aula">
                                     <p class="palavra2">Sistema Digestório</p>
                                     <p><a href="https://plataforma.aulalivre.net/disciplina/biologia/07---fisiologia-animal/sistema-digestorio" target="_blank"><img src="../acess/videos-solid-24.png" alt=""></a></p>
@@ -854,12 +860,12 @@
                                     <p class="palavra2">Protozoários</p>
                                     <p><a href="https://plataforma.aulalivre.net/disciplina/biologia/04---microbiologia/seres-vivos-inferiores-iii-protozoarios" target="_blank"><img src="../acess/videos-solid-24.png" alt=""></a></p>
                                 </div>
+                                <button id="btn-mobile15" class="botao-aulas" onclick="voltar()" href="">Voltar</button>
                                 
-
                             </nav>
                         </div>
-                    </nav>
-                </div>   
+                </nav>
+        </div>
     </main>
     
     <script src="./js/index.js"></script>

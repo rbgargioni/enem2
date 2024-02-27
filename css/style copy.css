@@ -48,11 +48,24 @@ header.cabecalho {
     z-index: 1000; /* Valor alto para garantir que o cabeçalho esteja acima de outros elementos */
 }
 
-#ARTES #artesano1 #artesano2{
+#ARTES #artesano1 #artesano2 {
     display: none;
 }
 
 #comp{
+    display: none;
+}
+#BIOLOGIA{
+    display: none;
+}
+
+#biologiano1 {
+    display: none;
+}
+#biologiano2{
+    display: none;
+}
+#biologiano3{
     display: none;
 }
 
@@ -112,7 +125,7 @@ header.cabecalho {
     top: calc(50% + 10px); /* Adiciona 50px ao valor original de 50% */
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 746px;
+    width: 480px;
     background: white;
     border-radius: 20px;
     padding: 20px;
@@ -163,14 +176,15 @@ header.cabecalho {
 }
 .container-propaganda .tabela1 {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* Quatro disciplinas por linha */
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr); /* Quatro disciplinas por linha */
+    gap: 1px;
 }
 .container-propaganda .tabela2 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Quatro disciplinas por linha */
+    grid-template-columns: repeat(3, 0fr); /* Quatro disciplinas por linha */
     gap: 20px;
 }
+
 .container-propaganda .tabela3 {
     display: grid;
    
@@ -289,11 +303,25 @@ header.cabecalho {
  }
 
   #imagem-menina-interna{
-    display: none;
+   
+     /* Valor entre 0 (totalmente transparente) e 1 (totalmente opaca) */
+    /* Permite sobrepor outros elementos */
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+    bottom: 20px; 
+    z-index: -1; /* Coloca a imagem no fundo, atrás do conteúdo */
   }
    .mobile{
     display: none;
    } 
+
+.containe_imagem{
+    display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+}
 
 /* Adicione estas regras para tornar responsivo */
 @media screen and (max-width: 768px) {
@@ -403,5 +431,49 @@ header.cabecalho {
     }
     .container-propaganda{
         max-height: 350px;
+    }
+}
+@media screen and (max-width: 914px) {
+    body {
+        font-size: 1.2rem; /* Tamanho da fonte menor para dispositivos móveis */
+    }
+    .container-propaganda .tabela1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Quatro disciplinas por linha */
+    gap: 3px;
+    }
+}
+@media screen and (max-width: 914px) {
+    header.cabecalho {
+        height: auto; /* Ajusta a altura automaticamente para acomodar o conteúdo */
+        padding-top: 10px; /* Adapta o espaçamento superior */
+        padding-bottom: 10px; /* Adapta o espaçamento inferior */
+    }
+}
+@media screen and (max-width: 914px) {
+    #imagem-menina {
+       display: none;
+    }
+}
+@media screen and (max-width: 914px) {
+    .texto-conexao-enem,
+    .texto-conexao-enem2,
+    .texto2 {
+        width: 100%; /* Faz com que o texto ocupe 100% da largura do contêiner pai */
+    }
+}
+@media screen and (max-width: 914px) {
+    #menu,
+    #menu2,
+    #menu3 {
+        width: 100%; /* Faz com que o menu ocupe 100% da largura do contêiner pai */
+        right: 0; /* Alinha o menu à direita da tela */
+    }
+}
+@media screen and (max-width: 914px) {
+    .botao,
+    .botao-aulas {
+        padding: 0.5rem 2rem; /* Ajusta o preenchimento do botão */
+        margin: 10px 0; /* Ajusta a margem do botão */
     }
 }

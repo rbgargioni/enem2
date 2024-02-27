@@ -4,6 +4,7 @@ menuArtes.style.display = "none";
 artesano1.style.display = "none";
 artesano2.style.display = "none";
 artesano3.style.display = "none";
+biologiano1.style.display = "none";
 
 
 // Função que verifica o fragmento da URL para executar a função correspondente
@@ -62,9 +63,32 @@ function clickMenu2() {
     menuBiologia.style.display = "block";
 }
 
-function voltar(){
+function biologiaAno1(){
+    biologiano1.style.display = "block";
+    aulasbiologia.style.display = "none";
+}
+function biologiaAno2(){
+    biologiano2.style.display = "block";
+    aulasbiologia.style.display = "none";
+}
+function biologiaAno3(){
+    biologiano3.style.display = "block";
+    aulasbiologia.style.display = "none";
+}
+function voltar() {
+    window.location.reload();
+}
+function voltar2(){
     var menuArtes = document.getElementById("ARTES");
     menuArtes.style.display = "none";
+    menuprincipal.style.display = "block";
+    var elementosDescricao = document.getElementsByClassName("descricao");
+
+for (var i = 0; i < elementosDescricao.length; i++) {
+    elementosDescricao[i].style.display = "none";
+}
+    var menuBiologia = document.getElementById("BIOLOGIA");
+    menuBiologia.style.display = "none";
     menuprincipal.style.display = "block";
     var elementosDescricao = document.getElementsByClassName("descricao");
 
