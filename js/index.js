@@ -5,6 +5,7 @@ artesano1.style.display = "none";
 artesano2.style.display = "none";
 artesano3.style.display = "none";
 biologiano1.style.display = "none";
+valumes.style.display = "none";
 
 
 // Função que verifica o fragmento da URL para executar a função correspondente
@@ -37,7 +38,8 @@ function clickMenu1() {
     // Alterna a visibilidade do menu
     menuArtes.style.display = isVisible ? "none" : "block";
     menuprincipal.style.display = "none";
-    aulasartes.style.display = "block";
+   // artes.style.display = "none";
+    valumes.style.display = "block";
 }
 function artesvolume1(){
    // window.location.hash = 'artesvolume1';

@@ -25,17 +25,6 @@ body, html {
 }
 
 
-/* Cabeçalho
-header{
-    position: absolute;
-    width:100%;
-    height: 3%;
-    background: var(--color-cinza);
-    padding-bottom: 0.5rem;
-    text-align: center;
-    padding-top: 20px;
-    box-shadow: 0 0.1rem 0.5rem #8f8e8e ;
-}*/
 header.cabecalho {
     position: fixed; /* Garante que o cabeçalho permaneça fixo na parte superior da tela */
     width: 100%;
@@ -68,6 +57,9 @@ header.cabecalho {
 #biologiano3{
     display: none;
 }
+.container_volume{
+    display: none;
+}
 
 .container-principal {
     margin-bottom: 2rem;
@@ -93,7 +85,7 @@ header.cabecalho {
     
 }
 .tituloaba1{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 900;
     text-transform: uppercase;
     color: var(--color-cinza-enem);
@@ -134,7 +126,21 @@ header.cabecalho {
     opacity: 0.9;
     
 }
-
+.container_volume{
+    position: relative;
+   
+   /* top: 98px;
+    /* grid-template-columns: repeat(2, 0fr); Ajuste o número de colunas conforme necessário */
+    width: auto;
+    background: white;
+    border-radius: 32px;
+    padding: 32px 0px;
+    box-shadow: 0 0.1rem 0.5rem #8f8e8e;
+    transition: all 0.5s ease 0s;
+    opacity: 0.9;
+    margin-top: 4rem;
+   /* z-index: -1;*/
+}
 .texto-conexao-enem2 {
     position: relative;
     display: grid;
@@ -324,17 +330,7 @@ header.cabecalho {
 }
 
 /* Adicione estas regras para tornar responsivo */
-@media screen and (max-width: 768px) {
-    nav.tabela1 {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
 
-@media screen and (max-width: 425px) {
-    nav.tabela1 {
-        grid-template-columns: 1fr;
-    }
-}
 @media  screen and (max-width:1024px){
     header{
         width: 135vh;
@@ -350,92 +346,18 @@ header.cabecalho {
     }
 }
 
-@media  screen and (max-width:768px){
-    header{
-        width: 90vh;
-        text-align: center;
-    
-    }
-    .container-principal{
-        width: 90vh;
-    }
-    
-    .texto-conexao-enem{
-        width: 310px;
-    }
-    #imagem-menina-interna{
-        max-width: 60%;
-        display: block;
-        margin-left: 60px;
-    }
-    #imagem-menina {
-        width: 200px;
-        margin-left: 4rem;
-
-    }
-    .texto-de-apoio{
-       display: none;
-    }
-    .botao{
-        display: none;
-    }
-    .menu-mobile{
-        display:grid;
-        grid-template-columns: repeat(3, 2fr);
-        padding-bottom: 20px;
-    }
-    #nav-mobile{
-        margin: 20px;
-    }
-    .titulo{
-        text-align: center;
-    }
-       .mobile{
-        display: grid;
-       } 
-}
-
-@media  screen and (max-width:425px){
-    main{
-        width: 72vh;
-    }
-    header{
-        width: 72vh;
-        text-align: center;
-    
-    }
-    .container-principal{
-        width: 72vh;
-    }
-    .container-propaganda{
-        height: 60vh;
-    }
-    .texto-de-apoio{
-        display: none;
-    }
-    .texto-conexao-enem{
-        width: 310px;
-    }
-    .botao{
-        display: none;
-    }
-    #imagem-menina-interna{
-        display: none;
-    }
-    .texto2{
-        padding: 20px 25px 0px 25px;
-        font-weight: 700;
-        font-size: 20px;
-        color: var(--color-font-roxo);
-        margin-bottom: 5px;
-    }
-    .container-propaganda{
-        max-height: 350px;
-    }
-}
 @media screen and (max-width: 914px) {
     body {
         font-size: 1.2rem; /* Tamanho da fonte menor para dispositivos móveis */
+        width: 420px;
+    }
+    header.ca{
+        width: 42px;
+        text-align: center;
+    
+    }
+    .container-principal{
+        width: 420px;
     }
     .container-propaganda .tabela1 {
     display: grid;
@@ -443,37 +365,48 @@ header.cabecalho {
     gap: 3px;
     }
 }
-@media screen and (max-width: 914px) {
+@media screen and (max-width: 425px) {
+    /* Ajustes de estilo para telas pequenas */
+    body {
+        font-size: 14px; /* Exemplo: reduzir o tamanho da fonte */
+       
+    }
+
+    main {
+        width: 100%; /* Exemplo: ajustar a largura do conteúdo */
+    }
     header.cabecalho {
         height: auto; /* Ajusta a altura automaticamente para acomodar o conteúdo */
         padding-top: 10px; /* Adapta o espaçamento superior */
         padding-bottom: 10px; /* Adapta o espaçamento inferior */
+        width: 100%;
     }
-}
-@media screen and (max-width: 914px) {
-    #imagem-menina {
-       display: none;
-    }
-}
-@media screen and (max-width: 914px) {
-    .texto-conexao-enem,
-    .texto-conexao-enem2,
-    .texto2 {
-        width: 100%; /* Faz com que o texto ocupe 100% da largura do contêiner pai */
-    }
-}
-@media screen and (max-width: 914px) {
     #menu,
     #menu2,
     #menu3 {
-        width: 100%; /* Faz com que o menu ocupe 100% da largura do contêiner pai */
+        width: 90%; /* Faz com que o menu ocupe 100% da largura do contêiner pai */
         right: 0; /* Alinha o menu à direita da tela */
     }
-}
-@media screen and (max-width: 914px) {
     .botao,
     .botao-aulas {
         padding: 0.5rem 2rem; /* Ajusta o preenchimento do botão */
         margin: 10px 0; /* Ajusta a margem do botão */
     }
+    .texto-conexao-enem {
+        width: 336px;
+    }
+    .texto-conexao-enem2{
+        width: 336px;
+    }
+    .container-principal{
+        display: flex;
+        width: 100%; /* ou outro valor conforme necessário */
+        min-height: 100vh;
+    }
+    .container-propaganda{
+       display: inline-table;
+    }
 }
+
+
+
