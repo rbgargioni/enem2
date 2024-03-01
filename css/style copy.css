@@ -61,6 +61,39 @@ header.cabecalho {
     display: none;
 }
 
+#EDFISICA{
+    display: none;
+}
+#edFisicano1 {
+    display: none;
+}
+#edFisicano2 {
+    display: none;
+}
+#edFisicano3 {
+    display: none;
+}
+#ESPANHOL{
+    display: none;
+}
+#espanhol_ano1 {
+    display: none;
+}
+#espanhol_ano2 {
+    display: none;
+}
+#FILOSOFIA{
+    display: none;
+}
+#filoAno1 {
+    display: none;
+}
+#filoAno2 {
+    display: none;
+}
+#filoAno3 {
+    display: none;
+}
 .container-principal {
     margin-bottom: 2rem;
     display: flex;

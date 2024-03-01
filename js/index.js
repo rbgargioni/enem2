@@ -77,27 +77,87 @@ function biologiaAno3(){
     biologiano3.style.display = "block";
     aulasbiologia.style.display = "none";
 }
+
+///////////////////// Menu de ED FISICA//////////////////////////////
+function clickMenu3() {
+    var menuEdfisica = document.getElementById("EDFISICA");
+    var menuPrincipal = document.getElementById("menuprincipal");
+    // Verifica se o menu está visível
+    var isVisible = window.getComputedStyle(menuEdfisica).display !== "none";
+
+    // Alterna a visibilidade do menu
+    menuEdfisica.style.display = isVisible ? "none" : "block";
+    menuprincipal.style.display = "none";
+    menuEdfisica.style.display = "block";
+}
+
+function edFisicaAno1(){
+    edFisicano1.style.display = "block";
+    aulasedfisica.style.display = "none";
+}
+function edFisicaAno2(){
+    edFisicano2.style.display = "block";
+    aulasedfisica.style.display = "none";
+}
+function edFisicaAno3(){
+    edFisicano3.style.display = "block";
+    aulasedfisica.style.display = "none";
+}
 function voltar() {
     window.location.reload();
 }
-function voltar2(){
-    var menuArtes = document.getElementById("ARTES");
-    menuArtes.style.display = "none";
-    menuprincipal.style.display = "block";
-    var elementosDescricao = document.getElementsByClassName("descricao");
 
-for (var i = 0; i < elementosDescricao.length; i++) {
-    elementosDescricao[i].style.display = "none";
-}
-    var menuBiologia = document.getElementById("BIOLOGIA");
-    menuBiologia.style.display = "none";
-    menuprincipal.style.display = "block";
-    var elementosDescricao = document.getElementsByClassName("descricao");
 
-for (var i = 0; i < elementosDescricao.length; i++) {
-    elementosDescricao[i].style.display = "none";
+///////////////////// Menu de Espanhol//////////////////////////////
+function clickMenu4() {
+    var menuEspanhol = document.getElementById("ESPANHOL");
+    var menuPrincipal = document.getElementById("menuprincipal");
+    // Verifica se o menu está visível
+    var isVisible = window.getComputedStyle(menuEspanhol).display !== "none";
+
+    // Alterna a visibilidade do menu
+    menuEspanhol.style.display = isVisible ? "none" : "block";
+    menuprincipal.style.display = "none";
+    menuEspanhol.style.display = "block";
 }
+
+function espanholAno1(){
+    espanhol_ano1.style.display = "block";
+    aulasespanhol.style.display = "none";
 }
+function espanholAno2(){
+    espanhol_ano2.style.display = "block";
+    aulasespanhol.style.display = "none";
+}
+
+///////////////////// Menu de Filisofia//////////////////////////////
+function clickMenu5() {
+    var menuFilosofia = document.getElementById("FILOSOFIA");
+    var menuPrincipal = document.getElementById("menuprincipal");
+    // Verifica se o menu está visível
+    var isVisible = window.getComputedStyle(menuFilosofia).display !== "none";
+
+    // Alterna a visibilidade do menu
+    menuFilosofia.style.display = isVisible ? "none" : "block";
+    menuprincipal.style.display = "none";
+    menuFilosofia.style.display = "block";
+}
+
+function filosofiaAno1(){
+    filoAno1.style.display = "block";
+    aulasfilosofia.style.display = "none";
+}
+function filosofiaAno2(){
+    filoAno2.style.display = "block";
+    aulasfilosofia.style.display = "none";
+}
+function filosofiaAno3(){
+    filoAno3.style.display = "block";
+    aulasfilosofia.style.display = "none";
+}
+
+
+
 verificarFragmento();
 
  
