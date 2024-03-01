@@ -365,6 +365,7 @@ header.cabecalho {
     gap: 3px;
     }
 }
+
 @media screen and (max-width: 425px) {
     /* Ajustes de estilo para telas pequenas */
     body {
@@ -394,9 +395,12 @@ header.cabecalho {
     }
     .texto-conexao-enem {
         width: 336px;
+        margin-top: 50px;
     }
     .texto-conexao-enem2{
-        width: 336px;
+        width: 400px;
+        align-items: center;
+
     }
     .container-principal{
         display: flex;
@@ -404,9 +408,26 @@ header.cabecalho {
         min-height: 100vh;
     }
     .container-propaganda{
+       width: 100%;
        display: inline-table;
+    }
+    .tituloaba1{
+        font-size: 30px;
+        
+    }
+    .menuPequeno{
+       
+        margin-left: 17%;
     }
 }
 
+@media screen and (max-width: 410px) {
+    .texto-conexao-enem2{
+        width: 335px;
+    }
+    .tituloaba1{
+        font-size: 25px;
+        
+    }
 
-
+}
