@@ -94,6 +94,70 @@ header.cabecalho {
 #filoAno3 {
     display: none;
 }
+
+
+#FISICA{
+    display: none;
+}
+#fisicaAno1 {
+    display: none;
+}
+#fisicaAno2 {
+    display: none;
+}
+#fisicaAno3 {
+    display: none;
+}
+#GEOGRAFIA{
+    display: none;
+}
+#geografiaAno1{
+    display: none;
+}
+#geografiaAno2{
+    display: none;
+}
+#geografiaAno3{
+    display: none;
+}
+
+#HISTORIA{
+    display: none;
+}
+#historiaAno1{
+    display: none;
+}
+#historiaAno2{
+    display: none;
+}
+#historiaAno3{
+    display: none;
+}
+#INGLES{
+    display: none;
+}
+#inglesAno1{
+    display: none;
+}
+#inglesAno2{
+    display: none;
+}
+#inglesAno3{
+    display: none;
+}
+#LITERATURA{
+    display: none;
+}
+#literaturaAno1{
+    display: none;
+}
+#literaturaAno2{
+    display: none;
+}
+#literaturaAno3{
+    display: none;
+}
+
 .container-principal {
     margin-bottom: 2rem;
     display: flex;

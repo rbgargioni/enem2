@@ -156,7 +156,133 @@ function filosofiaAno3(){
     aulasfilosofia.style.display = "none";
 }
 
+///////////////////// Menu de FISICA//////////////////////////////
+function clickMenu6() {
+    var menuFisica = document.getElementById("FISICA");
+    var menuPrincipal = document.getElementById("menuprincipal");
+    // Verifica se o menu está visível
+    var isVisible = window.getComputedStyle(menuFisica).display !== "none";
 
+    // Alterna a visibilidade do menu
+    menuFisica.style.display = isVisible ? "none" : "block";
+    menuprincipal.style.display = "none";
+    menuFisica.style.display = "block";
+}
+
+function fisiAno1(){
+    fisicaAno1.style.display = "block";
+    aulasfisica.style.display = "none";
+}
+function fisiAno2(){
+    fisicaAno2.style.display = "block";
+    aulasfisica.style.display = "none";
+}
+function fisiAno3(){
+    fisicaAno3.style.display = "block";
+    aulasfisica.style.display = "none";
+}
+
+///////////////////// Menu de GEOGRAFIA//////////////////////////////
+function clickMenu7() {
+    var menuGEO = document.getElementById("GEOGRAFIA");
+    var menuPrincipal = document.getElementById("menuprincipal");
+    // Verifica se o menu está visível
+    var isVisible = window.getComputedStyle(menuGEO).display !== "none";
+
+    // Alterna a visibilidade do menu
+    menuGEO.style.display = isVisible ? "none" : "block";
+    menuprincipal.style.display = "none";
+    menuGEO.style.display = "block";
+}
+
+function geoAno1(){
+    geografiaAno1.style.display = "block";
+    aulasgeografia.style.display = "none";
+}
+function geoAno2(){
+    geografiaAno2.style.display = "block";
+    aulasgeografia.style.display = "none";
+}
+function geoAno3(){
+    geografiaAno3.style.display = "block";
+    aulasgeografia.style.display = "none";
+}
+///////////////////// Menu de HISTORIA//////////////////////////////
+function clickMenu8() {
+    var menuHis = document.getElementById("HISTORIA");
+    var menuPrincipal = document.getElementById("menuprincipal");
+    // Verifica se o menu está visível
+    var isVisible = window.getComputedStyle(menuHis).display !== "none";
+
+    // Alterna a visibilidade do menu
+    menuHis.style.display = isVisible ? "none" : "block";
+    menuprincipal.style.display = "none";
+    menuHis.style.display = "block";
+}
+
+function histAno1(){
+    historiaAno1.style.display = "block";
+    aulashistoria.style.display = "none";
+}
+function histAno2(){
+    historiaAno2.style.display = "block";
+    aulashistoria.style.display = "none";
+}
+function histAno3(){
+    historiaAno3.style.display = "block";
+    aulashistoria.style.display = "none";
+}
+///////////////////// Menu de INGLES//////////////////////////////
+function clickMenu9() {
+    var menuing = document.getElementById("INGLES");
+    var menuPrincipal = document.getElementById("menuprincipal");
+    // Verifica se o menu está visível
+    var isVisible = window.getComputedStyle(menuing).display !== "none";
+
+    // Alterna a visibilidade do menu
+    menuing.style.display = isVisible ? "none" : "block";
+    menuprincipal.style.display = "none";
+    menuing.style.display = "block";
+}
+
+function ingAno1(){
+    inglesAno1.style.display = "block";
+    aulasingles.style.display = "none";
+}
+function ingAno2(){
+    inglesAno2.style.display = "block";
+    aulasingles.style.display = "none";
+}
+function ingAno3(){
+    inglesAno3.style.display = "block";
+    aulasingles.style.display = "none";
+}
+
+///////////////////// Menu de LITERATURA//////////////////////////////
+function clickMenu10() {
+    var menuLit = document.getElementById("LITERATURA");
+    var menuPrincipal = document.getElementById("menuprincipal");
+    // Verifica se o menu está visível
+    var isVisible = window.getComputedStyle(menuLit).display !== "none";
+
+    // Alterna a visibilidade do menu
+    menuLit.style.display = isVisible ? "none" : "block";
+    menuprincipal.style.display = "none";
+    menuLit.style.display = "block";
+}
+
+function litAno1(){
+    literaturaAno1.style.display = "block";
+    aulasliteratura.style.display = "none";
+}
+function litAno2(){
+    literaturaAno2.style.display = "block";
+    aulasliteratura.style.display = "none";
+}
+function litAno3(){
+    literaturaAno3.style.display = "block";
+    aulasliteratura.style.display = "none";
+}
 
 verificarFragmento();
 
