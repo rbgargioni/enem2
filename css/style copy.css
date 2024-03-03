@@ -158,6 +158,67 @@ header.cabecalho {
     display: none;
 }
 
+#MATEMATICA{
+    display: none;
+}
+#matematicaAno1{
+    display: none;
+}
+#matematicaAno2{
+    display: none;
+}
+#matematicaAno3{
+    display: none;
+}
+#PORTUGUES{
+    display: none;
+}
+#portuguesAno1{
+    display: none;
+}
+#portuguesAno2{
+    display: none;
+}
+#QUIMICA{
+    display: none;
+}
+#quimicaAno1{
+    display: none;
+}
+#quimicaAno2{
+    display: none;
+}
+#quimicaAno3{
+    display: none;
+}
+
+#REDACAO{
+    display: none;
+}
+#redacaoAno1{
+    display: none;
+}
+#redacaoAno2{
+    display: none;
+}
+#redacaoAno3{
+    display: none;
+}
+
+#SOCIOLOGIA{
+    display: none;
+}
+#sociologiaAno1{
+    display: none;
+}
+#sociologiaAno2{
+    display: none;
+}
+#sociologiaAno3{
+    display: none;
+}
+
+
 .container-principal {
     margin-bottom: 2rem;
     display: flex;
