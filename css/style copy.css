@@ -38,7 +38,13 @@ header.cabecalho {
     z-index: 1000; /* Valor alto para garantir que o cabeçalho esteja acima de outros elementos */
 }
 
-#ARTES #artesano1 #artesano2 {
+#ARTES {
+    display: none;
+}
+#artesano1 {
+    display: none;
+}
+#artesano2{
     display: none;
 }
 

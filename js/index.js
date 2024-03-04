@@ -1,11 +1,11 @@
 
-var menuArtes = document.getElementById("ARTES");
-menuArtes.style.display = "none";
-artesano1.style.display = "none";
-artesano2.style.display = "none";
-artesano3.style.display = "none";
-biologiano1.style.display = "none";
-valumes.style.display = "none";
+//var menuArtes = document.getElementById("ARTES");
+//menuArtes.style.display = "none";
+//artesano1.style.display = "none";
+//artesano2.style.display = "none";
+//artesano3.style.display = "none";
+//biologiano1.style.display = "none";
+//valumes.style.display = "none";
 
 
 // Função que verifica o fragmento da URL para executar a função correspondente
