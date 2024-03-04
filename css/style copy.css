@@ -16,6 +16,7 @@ body {
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
+    background: var(--color-amarelo);
     
 }
 body, html {
@@ -222,10 +223,11 @@ header.cabecalho {
 .container-principal {
     margin-bottom: 2rem;
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center; /* Alinha o conteúdo verticalmente no centro */
     min-height: 120vh; /* Define a altura mínima como 100% da altura da viewport */
-    background: var(--color-amarelo);
+    
 }
 
 .container-propaganda{
@@ -409,16 +411,6 @@ header.cabecalho {
 
 
 
-/* Adicione estas regras para tornar responsivo */
-@media screen and (max-width: 1024px) {
-    .container-propaganda .tabela1 {
-        grid-template-columns: repeat(3, 1fr); /* Três disciplinas por linha em telas menores que 1024px */
-    }
-    .container-propaganda .descricao {
-        grid-template-columns: repeat(3, 1fr); /* Três disciplinas por linha em telas menores que 1024px */
-      
-    }
-}
 
 
 .titulo{
@@ -488,39 +480,65 @@ header.cabecalho {
 }
 
 /* Adicione estas regras para tornar responsivo */
+/* Adicione estas regras para tornar responsivo */
+@media screen and (max-width: 1024px) {
+    .container-propaganda .tabela1 {
+        grid-template-columns: repeat(3, 1fr); /* Três disciplinas por linha em telas menores que 1024px */
+    }
+    .container-propaganda .descricao {
+        grid-template-columns: repeat(3, 1fr); /* Três disciplinas por linha em telas menores que 1024px */
+      
+    }
+}
 
 @media  screen and (max-width:1024px){
+     /* Ajustes de estilo para telas pequenas */
+     body {
+        font-size: 14px; /* Exemplo: reduzir o tamanho da fonte */
+       
+    }
+
+    main {
+        width: 100%; /* Exemplo: ajustar a largura do conteúdo */
+    }
     header{
         width: 135vh;
         text-align: center;
     
     }
     .container-principal{
-        width: 135vh;
+        width: 100%;
     }
+
     
     .texto-conexao-enem{
-        width: 310px;
+        width: auto;
     }
 }
 
-@media screen and (max-width: 914px) {
-    body {
-        font-size: 1.2rem; /* Tamanho da fonte menor para dispositivos móveis */
-        width: 420px;
-    }
-    header.ca{
-        width: 42px;
+@media  screen and (max-width:800px){
+    header{
+        width: 135vh;
         text-align: center;
     
     }
-    .container-principal{
-        width: 420px;
+    body {
+        width: 100%; /* Exemplo: ajustar a largura do conteúdo */
     }
-    .container-propaganda .tabela1 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Quatro disciplinas por linha */
-    gap: 3px;
+    .container-principal{
+        width: 100%;
+    }
+
+    .container-propaganda{
+        width: 100%;
+    }
+    
+    .texto-conexao-enem{
+        width: 500px;
+        margin-top: 70px;
+    }
+    .texto-conexao-enem2{
+        width: 500px;
     }
 }
 
@@ -552,14 +570,24 @@ header.cabecalho {
         margin: 10px 0; /* Ajusta a margem do botão */
     }
     .texto-conexao-enem {
-        width: 336px;
-        margin-top: 50px;
+        width: auto;
+        margin-top: 200px;
     }
     .texto-conexao-enem2{
         width: 400px;
         align-items: center;
 
     }
+    .texto-conexao-enem2.tituloaba1{
+       font-size: 26px;
+
+   }
+
+    .container-propaganda .tabela1 {
+        grid-template-columns: repeat(2, 1fr); /* Três disciplinas por linha em telas menores que 1024px */
+    }
+
+
     .container-principal{
         display: flex;
         width: 100%; /* ou outro valor conforme necessário */
@@ -575,7 +603,7 @@ header.cabecalho {
     }
     .menuPequeno{
        
-        margin-left: 17%;
+        margin-left: 19%;
     }
 }
 
@@ -590,11 +618,25 @@ header.cabecalho {
         
     }
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 360px) {
+
+    .texto-conexao-enem{
+        margin-top: 75px;
+    }
     .texto-conexao-enem2{
         width: 300px;
         margin-left: 10px;
         margin-right: 10px;
+    }
+ 
+}
+@media screen and (max-width: 320px) {
+    .texto-conexao-enem2{
+        width: 300px;
+        margin-top: 80px;
+    }
+    .texto-conexao-enem{
+        margin-top: 200px;
     }
  
 }
