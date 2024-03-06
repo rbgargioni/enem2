@@ -1,11 +1,11 @@
 
-var menuArtes = document.getElementById("ARTES");
-menuArtes.style.display = "none";
-artesano1.style.display = "none";
-artesano2.style.display = "none";
-artesano3.style.display = "none";
-biologiano1.style.display = "none";
-valumes.style.display = "none";
+//var menuArtes = document.getElementById("ARTES");
+//menuArtes.style.display = "none";
+//artesano1.style.display = "none";
+//artesano2.style.display = "none";
+//artesano3.style.display = "none";
+//biologiano1.style.display = "none";
+//valumes.style.display = "none";
 
 
 // Função que verifica o fragmento da URL para executar a função correspondente
@@ -25,9 +25,8 @@ function verificarFragmento() {
 }
 // função de cliques para compartilhamento
 // Artes//
-function executarArtesano1() { clickMenu1(); artesvolume1();} 
+function executarArtesano1() { clickMenu1(); artesVolume1();} 
 function executarArtesano2() { clickMenu1(); artesvolume2();}
-function executarArtesano3() { clickMenu1(); artesvolume3();} 
 ///BIOLOGIA
 function executarbiologiano1() { clickMenu2(); biologiaAno1();} 
 function executarbiologiano2() { clickMenu2(); biologiaAno2();} 
@@ -85,25 +84,19 @@ function executarsociologiaAno3() { clickMenu15(); socAno3();}
 
 
 
-
-
-
-
-///////////////////// Menu de Artes////////////////////////////// 
+///////////////////// Menu de ARTES//////////////////////////////
 function clickMenu1() {
-    var menuArtes = document.getElementById("ARTES");
+    var menuArt = document.getElementById("ARTES");
     var menuPrincipal = document.getElementById("menuprincipal");
     // Verifica se o menu está visível
-    var isVisible = window.getComputedStyle(menuArtes).display !== "none";
+    var isVisible = window.getComputedStyle(menuArt).display !== "none";
 
     // Alterna a visibilidade do menu
-    menuArtes.style.display = isVisible ? "none" : "block";
+    menuArt.style.display = isVisible ? "none" : "block";
     menuprincipal.style.display = "none";
-   // artes.style.display = "none";
-    valumes.style.display = "block";
+    menuArt.style.display = "block";
 }
-function artesvolume1(){
-   // window.location.hash = 'artesvolume1';
+function artesVolume1(){
     artesano1.style.display = "block";
     aulasartes.style.display = "none";
 }
@@ -111,7 +104,6 @@ function artesvolume2(){
     artesano2.style.display = "block";
     aulasartes.style.display = "none";
 }
-
 
 ///////////////////// Menu de Biologia//////////////////////////////
 function clickMenu2() {

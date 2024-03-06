@@ -38,7 +38,13 @@ header.cabecalho {
     z-index: 1000; /* Valor alto para garantir que o cabeçalho esteja acima de outros elementos */
 }
 
-#ARTES #artesano1 #artesano2 {
+#ARTES {
+    display: none;
+}
+#artesano1 {
+    display: none;
+}
+#artesano2{
     display: none;
 }
 
@@ -252,6 +258,7 @@ header.cabecalho {
     margin-bottom: 3rem;
     
     
+    
 }
 .tituloaba2{
     font-size: 20px;
@@ -385,7 +392,23 @@ header.cabecalho {
 }
 #palavra2{
     text-transform: uppercase;
+    text-align: left;
+    margin-left: 5px;
 }
+p.palavra2{
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 5px;
+}
+
+p.tituloaba1{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  /*  border-top: 3px solid var(--color-amarelo); /* Cor da linha e espessura 
+    width: 100%;  Largura da linha */
+}
+
 .botao-aulas:hover {
     background-color: #551a8b; /* Cor de destaque quando o mouse passa por cima */
     color: white; /* Cor do texto quando o mouse passa por cima */
