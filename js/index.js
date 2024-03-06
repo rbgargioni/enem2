@@ -25,7 +25,7 @@ function verificarFragmento() {
 }
 // função de cliques para compartilhamento
 // Artes//
-function executarArtesano1() { clickMenu1(); artesVolume1();} 
+function executarArtesano1() { clickMenu1(); artesvolume1();} 
 function executarArtesano2() { clickMenu1(); artesvolume2();}
 ///BIOLOGIA
 function executarbiologiano1() { clickMenu2(); biologiaAno1();} 
@@ -96,7 +96,7 @@ function clickMenu1() {
     menuprincipal.style.display = "none";
     menuArt.style.display = "block";
 }
-function artesVolume1(){
+function artesvolume1(){
     artesano1.style.display = "block";
     aulasartes.style.display = "none";
 }

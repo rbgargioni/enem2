@@ -255,10 +255,15 @@ header.cabecalho {
     font-weight: 900;
     text-transform: uppercase;
     color: var(--color-cinza-enem);
-    margin-bottom: 3rem;
-    
-    
-    
+   
+    margin-top: 5rem; 
+}
+p.img {
+    text-align: right;
+}
+p img {
+    float: right;
+    margin-right: 50px;
 }
 .tituloaba2{
     font-size: 20px;
@@ -393,13 +398,14 @@ header.cabecalho {
 #palavra2{
     text-transform: uppercase;
     text-align: left;
-    margin-left: 5px;
+    margin-left: 50px;
 }
 p.palavra2{
     text-transform: uppercase;
     text-align: left;
-    margin-left: 5px;
+    margin-left: 50px;
 }
+
 
 p.tituloaba1{
     margin-top: 10px;
