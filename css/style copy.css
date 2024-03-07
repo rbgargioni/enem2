@@ -255,10 +255,15 @@ header.cabecalho {
     font-weight: 900;
     text-transform: uppercase;
     color: var(--color-cinza-enem);
-    margin-bottom: 3rem;
-    
-    
-    
+   
+    margin-top: 5rem; 
+}
+p.img {
+    text-align: right;
+}
+p img {
+    float: right;
+    margin-right: 50px;
 }
 .tituloaba2{
     font-size: 20px;
@@ -267,6 +272,37 @@ header.cabecalho {
     color: var(--color-cinza-enem);
     margin-bottom: 2rem;
 }
+
+#btn-mobile16{
+    width: 100%;
+}
+
+.video-button {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: var(--color-amarelo);
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  .video-button img {
+    margin-right: 10px;
+  }
+
+.voltar{
+    align-items: center;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    flex-grow: 1;
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+    transition: all .2s ease, visibility 0s;
+    width: 100%;
+}
+
 
 .enem{
     font-size: 95px;
@@ -393,13 +429,14 @@ header.cabecalho {
 #palavra2{
     text-transform: uppercase;
     text-align: left;
-    margin-left: 5px;
+    margin-left: 50px;
 }
 p.palavra2{
     text-transform: uppercase;
     text-align: left;
-    margin-left: 5px;
+    margin-left: 50px;
 }
+
 
 p.tituloaba1{
     margin-top: 10px;
