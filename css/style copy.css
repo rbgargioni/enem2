@@ -350,10 +350,10 @@ p img {
     grid-template-columns: repeat(2, 1fr); /* Ajuste o número de colunas conforme necessário */
     gap: 20px;
     width: 746px;
-    background: white;
+   /* background: white; */
     border-radius: 32px;
     padding: 32px 0px;
-    box-shadow: 0 0.1rem 0.5rem #8f8e8e;
+   /* box-shadow: 0 0.1rem 0.5rem #8f8e8e;*/
     transition: all 0.5s ease 0s;
     opacity: 0.9;
     margin-bottom: 4rem;
@@ -361,11 +361,18 @@ p img {
 }
 
 .texto2{
-    padding: 20px 25px;
+    
     font-weight: 700;
     font-size: 20px;
     color: var(--color-font-roxo);
     margin-bottom: 40px;
+}
+.texto4{
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--color-font-roxo);
+    
 }
 .botao{
     font-size: 16px;
@@ -418,6 +425,9 @@ p img {
     text-transform: uppercase;
     cursor: pointer;   
 }
+#container_aula {
+    background: white;
+}
 
 #container_aula :hover{
     padding-right:  5.5px;
@@ -439,9 +449,10 @@ p.palavra2{
 
 
 p.tituloaba1{
-    margin-top: 10px;
+    margin-top: 80px;
     margin-left: 5px;
     margin-right: 5px;
+    margin-bottom: 10px;
   /*  border-top: 3px solid var(--color-amarelo); /* Cor da linha e espessura 
     width: 100%;  Largura da linha */
 }

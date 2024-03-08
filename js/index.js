@@ -25,59 +25,123 @@ function verificarFragmento() {
 }
 // função de cliques para compartilhamento
 // Artes//
-function executarArtesano1() { clickMenu1(); artesvolume1();} 
+function arte_antiga() { clickMenu1(); artesvolume1(); var secaoID = "arteantigav1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function executarArtesano2() { clickMenu1(); artesvolume2();}
-///BIOLOGIA
-function executarbiologiano1() { clickMenu2(); biologiaAno1();} 
-function executarbiologiano2() { clickMenu2(); biologiaAno2();} 
-function executarbiologiano3() { clickMenu2(); biologiaAno3();} 
+///BIOLOGIA 
+function citologia2() { clickMenu2(); biologiaAno1(); var secaoID = "CITOLOGIA_II"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+function origem_da_vida() { clickMenu2(); biologiaAno1(); var secaoID = "origem_da_vida"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+function citologia1() { clickMenu2(); biologiaAno1(); var secaoID = "citologia_1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+function bioquimica() { clickMenu2(); biologiaAno1(); var secaoID = "bioquimicav1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+
 ///Educação fisica
+function biomecanica_e_saude() { clickMenu3(); edFisicaAno1(); var secaoID = "BIOMECANICA_E_SAUDE_V1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+
 function executaredFisicano1() { clickMenu3(); edFisicaAno1();}
 function executaredFisicano2() { clickMenu3(); edFisicaAno2();}
 function executaredFisicano3() { clickMenu3(); edFisicaAno3();}
 ///Educação Espanhol
+
+//function BIOMECANICA_E_SAUDE() { clickMenu4(); espanholAno1(); var secaoID = "BIOMECANICA_E_SAUDE_V1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+
 function executarespanhol_ano1() { clickMenu4(); espanholAno1();}
 function executarespanhol_ano2() { clickMenu4(); espanholAno2();}
 ///Educação FILOSOFIA
+
+function conceitos_filosoficos() { clickMenu5(); filosofiaAno1(); var secaoID = "Conceitos_FilosoficosV1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+function pre_socraticos() { clickMenu5(); filosofiaAno1(); var secaoID = "Pre_socraticosv1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+///menu
 function executarfiloAno1() { clickMenu5(); filosofiaAno1();}
 function executarfiloAno2() { clickMenu5(); filosofiaAno2();}
 function executarfiloAno3() { clickMenu5(); filosofiaAno3();}
-///Educação FISICA
+
+
+///Educação FISICA 
+
+function mru_e_mruv() { clickMenu6(); fisiAno1(); var secaoID = "MRU_E_MRUV_V1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+function gravitacao() { clickMenu6(); fisiAno1(); var secaoID = "gravitacao_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+function mc_e_obriquo() { clickMenu6(); fisiAno1(); var secaoID = "MC_E_OBLIQUO_V1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+
+/// menus
 function executarfisicaAno1() { clickMenu6(); fisiAno1();}
 function executarfisicaAno2() { clickMenu6(); fisiAno2();}
 function executarfisicaAno3() { clickMenu6(); fisiAno3();}
-///Educação GEOGRAFIA
+
+///Educação GEOGRAFIA 
+function cartografia() { clickMenu7(); geoAno1(); var secaoID = "CARTOGRAFIA_V1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+function clima() { clickMenu7(); geoAno1(); var secaoID = "clima_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+function geologia() { clickMenu7(); geoAno1(); var secaoID = "GEOLOGIA_V1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+
+///menu
 function executargeografiaAno1() { clickMenu7(); geoAno1();}
 function executargeografiaAno2() { clickMenu7(); geoAno2();}
 function executargeografiaAno3() { clickMenu7(); geoAno3();}
-///Educação HISTORIA
+///Educação HISTORIA 
+function antiguidade() { clickMenu8(); histAno1(); var secaoID = "Antiguidade_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+function grecia_roma_antiga() { clickMenu8(); histAno1(); var secaoID = "grecia_roma_antiga_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+function periodo_medieval_europeu() { clickMenu8(); histAno1(); var secaoID = "periodo_medieval_europeu_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+
+///MENU
 function executarhistoriaAno1() { clickMenu8(); histAno1();}
 function executarhistoriaAno2() { clickMenu8(); histAno2();}
 function executarhistoriaAno3() { clickMenu8(); histAno3();}
-///Educação INGLÊS
+
+///Educação INGLÊS 
+function cartuns_charges() { clickMenu9(); ingAno1(); var secaoID = "cartuns_charges_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+function infograficos() { clickMenu9(); ingAno1(); var secaoID = "infograficos_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+/// menu
 function executaringlesAno1() { clickMenu9(); ingAno1();}
 function executaringlesAno2() { clickMenu9(); ingAno2();}
 function executaringlesAno3() { clickMenu9(); ingAno3();}
 ///Educação LITERATURA
+function generos_literarios() { clickMenu10(); litAno1(); var secaoID = "generos_literarios_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+function quinhentismo() { clickMenu10(); litAno1(); var secaoID = "quinhentismo_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+function barroco() { clickMenu10(); litAno1(); var secaoID = "barroco_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+
+//menu
 function executarliteraturaAno1() { clickMenu10(); litAno1();}
 function executarliteraturaAno2() { clickMenu10(); litAno2();}
 function executarliteraturaAno3() { clickMenu10(); litAno3();}
 ///Educação MATEMÁTICA
+function dados_estatisticos() { clickMenu11(); matAno1(); var secaoID = "dados_estatisticos_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+function areas_volumes() { clickMenu11(); matAno1(); var secaoID = "areas_volumes_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+function taxas_inflacao() { clickMenu11(); matAno1(); var secaoID = "taxas_inflacao_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+
+//menu
 function executarmatematicaAno1() { clickMenu11(); matAno1();}
 function executarmatematicaAno2() { clickMenu11(); matAno2();}
 function executarmatematicaAno3() { clickMenu11(); matAno3();}
-///Educação Português
+///Educação Português 
+function adjetivo_pronome() { clickMenu12(); porAno1(); var secaoID = "adjetivo_pronome_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+function verbos_adverbios() { clickMenu12(); porAno1(); var secaoID = "verbos_adverbios_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+function figuras_linguagem() { clickMenu12(); porAno1(); var secaoID = "figuras_linguagem_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+
+//menu
 function executarportuguesAno1() { clickMenu12(); porAno1();}
 function executarportuguesAno2() { clickMenu12(); porAno2();}
 ///Educação QUÍMICA
+function propriedaes_da_materia() { clickMenu13(); quimAno1(); var secaoID = "propriedaes_da_materia_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+function estrutura_atomica() { clickMenu13(); quimAno1(); var secaoID = "estrutura_atomica_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+function tabela_periodica() { clickMenu13(); quimAno1(); var secaoID = "tabela_periodica_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+
+//menu
 function executarquimicaAno1() { clickMenu13(); quimAno1();}
 function executarquimicaAno2() { clickMenu13(); quimAno2();}
 function executarquimicaAno3() { clickMenu13(); quimAno3();}
 ///Educação REDAÇÃO
+function variacao_linguistica() { clickMenu14(); redAno1(); var secaoID = "variacao_linguistica_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+function redacao_generos_textuais() { clickMenu14(); redAno1(); var secaoID = "redacao_generos_textuais_V1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+
+
+//menu
 function executaredacaoAno1() { clickMenu14(); redAno1();}
 function executaredacaoAno2() { clickMenu14(); redAno2();}
 function executaredacaoAno3() { clickMenu14(); redAno3();}
 ///Educação SOCIOLOGIA
+
+//menu
+function movimentos_sociais() { clickMenu15(); socAno1(); var secaoID = "movimentos_sociais_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+
+
 function executarsociologiaAno1() { clickMenu15(); socAno1();}
 function executarsociologiaAno2() { clickMenu15(); socAno2();}
 function executarsociologiaAno3() { clickMenu15(); socAno3();}
