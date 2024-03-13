@@ -242,12 +242,24 @@ section.container-propaganda{
     align-items: center;
 }
 
+.tabela_menuPequeno{
+    background-color:white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 .container-propaganda{
     display: grid;
     justify-content: center;
     z-index: 1;
     text-align: center;
     height: calc(100% - 200px);
+}
+nav.container-propaganda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .conexao{
     font-size: 60px;
@@ -680,7 +692,7 @@ p.tituloaba1{
     }
     .menuPequeno{
        
-        margin-left: 19%;
+        
     }
 }
 
