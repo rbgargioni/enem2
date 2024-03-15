@@ -334,6 +334,10 @@ function artesvolume2(){
     artesano2.style.display = "block";
     aulasartes.style.display = "none";
 }
+function artesvolume3(){
+    artesano3.style.display = "block";
+    aulasartes.style.display = "none";
+}
 
 ///////////////////// Menu de Biologia//////////////////////////////
 function clickMenu2() {
