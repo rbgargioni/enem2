@@ -29,15 +29,17 @@ body, html {
 header.cabecalho {
     position: fixed; /* Garante que o cabeçalho permaneça fixo na parte superior da tela */
     width: 100%;
-    height: 3%;
+    height: 30px;
     background: var(--color-cinza);
     padding-bottom: 0.5rem;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
     box-shadow: 0 0.1rem 0.5rem #8f8e8e;
     z-index: 1000; /* Valor alto para garantir que o cabeçalho esteja acima de outros elementos */
 }
-
+.menu_aulas{
+    display: none;
+}
 #ARTES {
     display: none;
 }
@@ -86,12 +88,7 @@ header.cabecalho {
 #ESPANHOL{
     display: none;
 }
-#espanhol_ano1 {
-    display: none;
-}
-#espanhol_ano2 {
-    display: none;
-}
+
 #FILOSOFIA{
     display: none;
 }

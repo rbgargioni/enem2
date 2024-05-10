@@ -393,8 +393,8 @@ function edFisicaAno3(){
     aulasedfisica.style.display = "none";
 }
 function voltar() {
-    //window.location.reload();
-    window.location.href = "https://conexao.aulalivre.net/";
+    window.location.reload();
+  //  window.location.href = "https://conexao.aulalivre.net/";
 }
 
 
@@ -419,7 +419,22 @@ function espanholAno2(){
     espanhol_ano2.style.display = "block";
     aulasespanhol.style.display = "none";
 }
-
+function espanholAno3(){
+    espanhol_ano3.style.display = "block";
+    aulasespanhol.style.display = "none";
+}
+function espanholAno4(){
+    espanhol_ano4.style.display = "block";
+    aulasespanhol.style.display = "none";
+}
+function espanholAno5(){
+    espanhol_ano5.style.display = "block";
+    aulasespanhol.style.display = "none";
+}
+function espanholAno6(){
+    espanhol_ano6.style.display = "block";
+    aulasespanhol.style.display = "none";
+}
 ///////////////////// Menu de Filisofia//////////////////////////////
 function clickMenu5() {
     var menuFilosofia = document.getElementById("FILOSOFIA");
