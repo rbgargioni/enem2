@@ -96,7 +96,7 @@ function generos_argumentativo() { clickMenu4();  var secaoID = "generos_argumen
 //Volume 6 
 function interpretacao_textos() { clickMenu4();  var secaoID = "interpretacao_textos_v6"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function interpretacao_literarios() { clickMenu4();  var secaoID = "interpretacao_literarios_v6"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
-function generos_linguagens() { clickMenu4();  var secaoID = "generos_linguagens_v5"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
+function interpretacao_charge() { clickMenu4();  var secaoID = "interpretacao_charge_v6"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function generos_argumentativo() { clickMenu4();  var secaoID = "generos_argumentativo_v5"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 
 
@@ -369,7 +369,6 @@ function playError() {
 
 /////////////////// Voltar ///////////////////////////////////////
 function voltar() {
-    playError();
     window.location.reload();
     
   //  window.location.href = "https://conexao.aulalivre.net/";
@@ -377,8 +376,6 @@ function voltar() {
 
 ///////////////////// Menu de ARTES//////////////////////////////
 function clickMenu1() {
-    //playSuccess();
-    playError();
     var menuArt = document.getElementById("ARTES");
     var menuPrincipal = document.getElementById("menuprincipal");
     // Verifica se o menu está visível
@@ -396,7 +393,6 @@ function clickMenu1() {
 
 ///////////////////// Menu de Biologia//////////////////////////////
 function clickMenu2() {
-    playError();
     var menuBiologia = document.getElementById("BIOLOGIA");
     var menuPrincipal = document.getElementById("menuprincipal");
     // Verifica se o menu está visível
@@ -413,7 +409,6 @@ function clickMenu2() {
 
 ///////////////////// Menu de ED FISICA//////////////////////////////
 function clickMenu3() {
-    playError();
     var menuEdfisica = document.getElementById("EDFISICA");
     var menuPrincipal = document.getElementById("menuprincipal");
     // Verifica se o menu está visível
@@ -433,7 +428,6 @@ function clickMenu3() {
 
 ///////////////////// Menu de Espanhol//////////////////////////////
 function clickMenu4() {
-    playError();
     var menuEspanhol = document.getElementById("ESPANHOL");
     var menuPrincipal = document.getElementById("menuprincipal");
     // Verifica se o menu está visível
@@ -450,7 +444,6 @@ function clickMenu4() {
 
 ///////////////////// Menu de Filisofia//////////////////////////////
 function clickMenu5() {
-    playError();
     var menuFilosofia = document.getElementById("FILOSOFIA");
     var menuPrincipal = document.getElementById("menuprincipal");
     // Verifica se o menu está visível
@@ -467,7 +460,6 @@ function clickMenu5() {
 
 ///////////////////// Menu de FISICA//////////////////////////////
 function clickMenu6() {
-    playError();
     var menuFisica = document.getElementById("FISICA");
     var menuPrincipal = document.getElementById("menuprincipal");
     // Verifica se o menu está visível
@@ -484,7 +476,6 @@ function clickMenu6() {
 
 ///////////////////// Menu de GEOGRAFIA//////////////////////////////
 function clickMenu7() {
-    playError();
     var menuGEO = document.getElementById("GEOGRAFIA");
     var menuPrincipal = document.getElementById("menuprincipal");
     // Verifica se o menu está visível
@@ -500,7 +491,6 @@ function clickMenu7() {
 
 ///////////////////// Menu de HISTORIA//////////////////////////////
 function clickMenu8() {
-    playError();
     var menuHis = document.getElementById("HISTORIA");
     var menuPrincipal = document.getElementById("menuprincipal");
     // Verifica se o menu está visível
@@ -516,7 +506,6 @@ function clickMenu8() {
 
 ///////////////////// Menu de INGLES//////////////////////////////
 function clickMenu9() {
-    playError();
     var menuing = document.getElementById("INGLES");
     var menuPrincipal = document.getElementById("menuprincipal");
     // Verifica se o menu está visível
@@ -533,7 +522,6 @@ function clickMenu9() {
 
 ///////////////////// Menu de LITERATURA//////////////////////////////
 function clickMenu10() {
-    playError();
     var menuLit = document.getElementById("LITERATURA");
     var menuPrincipal = document.getElementById("menuprincipal");
     // Verifica se o menu está visível
@@ -550,7 +538,6 @@ function clickMenu10() {
 
 ///////////////////// Menu de Matematica//////////////////////////////
 function clickMenu11() {
-    playError();
     var menuMate = document.getElementById("MATEMATICA");
     var menuPrincipal = document.getElementById("menuprincipal");
     // Verifica se o menu está visível
@@ -567,7 +554,6 @@ function clickMenu11() {
 
 ///////////////////// Menu de Portugues//////////////////////////////
 function clickMenu12() {
-    playError();
     var menuPor = document.getElementById("PORTUGUES");
     var menuPrincipal = document.getElementById("menuprincipal");
     // Verifica se o menu está visível
@@ -584,7 +570,6 @@ function clickMenu12() {
 
 ///////////////////// Menu de QUIMICA//////////////////////////////
 function clickMenu13() {
-    playError();
     var menuquim = document.getElementById("QUIMICA");
     var menuPrincipal = document.getElementById("menuprincipal");
     // Verifica se o menu está visível
@@ -601,7 +586,6 @@ function clickMenu13() {
 
 ///////////////////// Menu de REDAÇÂO//////////////////////////////
 function clickMenu14() {
-    playError();
     var menuredacao = document.getElementById("REDACAO");
     var menuPrincipal = document.getElementById("menuprincipal");
     // Verifica se o menu está visível
@@ -617,7 +601,6 @@ function clickMenu14() {
 
 ///////////////////// Menu de SOCIOLOGIA//////////////////////////////
 function clickMenu15() {
-    playError();
     var menusociologia = document.getElementById("SOCIOLOGIA");
     var menuPrincipal = document.getElementById("menuprincipal");
     // Verifica se o menu está visível
@@ -630,10 +613,6 @@ function clickMenu15() {
     sociologiaAno1.style.display = "block";
     aulassociologia.style.display = "none";
 }
-
-
-
-
 verificarFragmento();
 
  
