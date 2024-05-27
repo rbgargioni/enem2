@@ -428,6 +428,36 @@ p img {
     gap: 0px;
 }
 
+#voltar {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px;
+    background-color: rgb(254, 101, 79);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+#voltar:hover {
+    background-color: rgb(224, 81, 56);
+}
+
+#voltar:focus {
+    outline: none; /* Remove a borda de foco padrão */
+    box-shadow: 0 0 0 3px rgba(254, 101, 79, 0.4); /* Adiciona uma borda de foco personalizada */
+}
+
+
 .botao-aulas {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
