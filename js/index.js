@@ -99,9 +99,7 @@ function interpretacao_literarios() { clickMenu4();  var secaoID = "interpretaca
 function interpretacao_charge() { clickMenu4();  var secaoID = "interpretacao_charge_v6"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function generos_argumentativo() { clickMenu4();  var secaoID = "generos_argumentativo_v5"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 
-
 ///Educação FILOSOFIA
-
 function conceitos_filosoficos() { clickMenu5();  var secaoID = "Conceitos_FilosoficosV1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function pre_socraticos() { clickMenu5();  var secaoID = "Pre_socraticosv1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function socrasticos() { clickMenu5();  var secaoID = "socrasticos_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
@@ -109,23 +107,18 @@ function socrasticos() { clickMenu5();  var secaoID = "socrasticos_v1"; var elem
 function filosofia_classica() { clickMenu5();  var secaoID = "filosofia_classica_v2"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function filosofia_medieval() { clickMenu5();  var secaoID = "filosofia_medieval_v2"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function filosofia_moderna() { clickMenu5();  var secaoID = "filosofia_moderna_v2"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
-/// Volume 3 filo_escola_frankfurt_v3
+/// Volume 3 
 function filosofia_conteporanea() { clickMenu5();  var secaoID = "filosofia_conteporanea_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function filo_politica() { clickMenu5();  var secaoID = "filo_politica_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function filo_etica() { clickMenu5();  var secaoID = "filo_etica_v3"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function filo_escola_frankfurt() { clickMenu5();  var secaoID = "filo_escola_frankfurt_v3"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 
-
-
 ///FISICA 
-
 function mru_e_mruv() { clickMenu6();  var secaoID = "MRU_E_MRUV_V1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function gravitacao() { clickMenu6();  var secaoID = "gravitacao_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function mc_e_obriquo() { clickMenu6();  var secaoID = "MC_E_OBLIQUO_V1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function optica() { clickMenu6();  var secaoID = "optica_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function ondulatoria() { clickMenu6();  var secaoID = "ondulatoria_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
-
-
 ///volume 2
 function optica_geometrica() { clickMenu6();  var secaoID = "optica_geometrica_v2"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function termologia() { clickMenu6();  var secaoID = "termologia_v2"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
@@ -143,15 +136,12 @@ function fisica_eletromagnetismo() { clickMenu6();  var secaoID = "fisica_eletro
 function analise_dimencional() { clickMenu6();  var secaoID = "analise_dimencional_v3"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function fisica_moderna() { clickMenu6();  var secaoID = "fisica_moderna_v3"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 
-
-
 ///Educação GEOGRAFIA 
 function cartografia() { clickMenu7();  var secaoID = "CARTOGRAFIA_V1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function clima() { clickMenu7();  var secaoID = "clima_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function geomorfologia() { clickMenu7();  var secaoID = "geomorfologia_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function recursos_hidricos() { clickMenu7();  var secaoID = "recursos_hidricos_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function dominios_morfoclimaticos() { clickMenu7();  var secaoID = "dominios_morfoclimaticos_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
-
 /// volume 2
 function geo_urbanizacao() { clickMenu7();  var secaoID = "geo_urbanizacao_v2"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function geo_industrializacao() { clickMenu7();  var secaoID = "geo_industrializacao_v2"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
@@ -159,7 +149,6 @@ function espaco_agrario() { clickMenu7();  var secaoID = "espaco_agrario_v2"; va
 function geo_demografia() { clickMenu7();  var secaoID = "geo_demografia_v2"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function geo_migracao_v2() { clickMenu7();  var secaoID = "geo_migracao_v2"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 /// Volume 3
-
 function geo_globalizacao() { clickMenu7();  var secaoID = "geo_globalizacao_v3"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function geopolitica_externa() { clickMenu7();  var secaoID = "geopolitica_externa_v3"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function geopolitica_interna() { clickMenu7();  var secaoID = "geopolitica_interna_v3"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
@@ -167,7 +156,6 @@ function questoes_ambientais() { clickMenu7();  var secaoID = "questoes_ambienta
 function fontes_energia() { clickMenu7();  var secaoID = "fontes_energia_v3"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function tecnologia_trasporte() { clickMenu7();  var secaoID = "tecnologia_trasporte_v3"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function geo_relacoa_trabalho() { clickMenu7();  var secaoID = "geo_relacoa_trabalho_v3"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
-
 
 ///Educação HISTORIA  
 function antiguidade() { clickMenu8();  var secaoID = "Antiguidade_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
@@ -177,7 +165,6 @@ function modernidade_europeia() { clickMenu8();  var secaoID = "modernidade_euro
 function era_das_navegacoes() { clickMenu8();  var secaoID = "era_das_navegacoes_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function continente_africano() { clickMenu8();  var secaoID = "continente_africano_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 /// volume 2
-
 function reformas_revolucao() { clickMenu8();  var secaoID = "reformas_revolucao_v2"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function povos_originarios() { clickMenu8();  var secaoID = "povos_originarios_v2"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function colonizacoes_pelo_atlantico() { clickMenu8();  var secaoID = "colonizacoes_pelo_atlantico_v2"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
@@ -194,7 +181,6 @@ function hist_breve_seculo_xx() { clickMenu8();  var secaoID = "hist_breve_secul
 function hist_brasil_redemocratizacao() { clickMenu8();  var secaoID = "hist_brasil_redemocratizacao_v3"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function hist_desafio_contemporaneos() { clickMenu8();  var secaoID = "hist_desafio_contemporaneos_v3"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 
-
 /// Educação INGLÊS 
 function cartuns_charges() { clickMenu9();  var secaoID = "cartuns_charges_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function infograficos() { clickMenu9();  var secaoID = "infograficos_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
@@ -208,7 +194,6 @@ function poema_e_proverbio_ing() { clickMenu9();  var secaoID = "poema_e_proverb
 function texto_variados_ing() { clickMenu9();  var secaoID = "texto_variados_ing_v3"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function explorando_textos_variados_ing() { clickMenu9();  var secaoID = "explorando_textos_variados_ing_v3"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function texto_variados_ing() { clickMenu9();  var secaoID = "texto_variados_ing_v3"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
-
 
 ///Educação LITERATURA
 function generos_literarios() { clickMenu10();  var secaoID = "generos_literarios_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
@@ -253,7 +238,6 @@ function estatisticos_analisados_interpretados() { clickMenu11();  var secaoID =
 function ladrilhamento_plano() { clickMenu11();  var secaoID = "ladrilhamento_plano_v3"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function centrais_analise_tabelas() { clickMenu11();  var secaoID = "centrais_analise_tabelas_v3"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 
-
 ///Educação Português  
 function adjetivo_pronome() { clickMenu12();  var secaoID = "adjetivo_pronome_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function verbos_adverbios() { clickMenu12();  var secaoID = "verbos_adverbios_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
@@ -268,7 +252,6 @@ function coordenadas_subordinadas_port() { clickMenu12();  var secaoID = "coorde
 function tipos_texto_port() { clickMenu12();  var secaoID = "tipos_texto_port_v2"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function variacao_linguistica_port() { clickMenu12();  var secaoID = "variacao_linguistica_port_v2"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function interpretacao_textual_port() { clickMenu12();  var secaoID = "interpretacao_textual_port_v2"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
-
 
 ///Educação QUÍMICA
 function propriedaes_da_materia() { clickMenu13();  var secaoID = "propriedaes_da_materia_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
@@ -294,8 +277,6 @@ function isomeria_quim() { clickMenu13();  var secaoID = "isomeria_quim_v3"; var
 function polimeros_quim() { clickMenu13();  var secaoID = "polimeros_quim_v3"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function meio_ambiente_quim() { clickMenu13();  var secaoID = "meio_ambiente_quim_v3"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 
-
-
 ///Educação REDAÇÃO 
 function variacao_linguistica() { clickMenu14();  var secaoID = "variacao_linguistica_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function redacao_generos_textuais() { clickMenu14();  var secaoID = "redacao_generos_textuais_V1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
@@ -313,10 +294,7 @@ function tipos_generos_textuais_v3() { clickMenu14();  var secaoID = "tipos_gene
 function interpretacao_analise_textual_v3() { clickMenu14();  var secaoID = "interpretacao_analise_textual_v3"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function estrategias_argumentativas_v3() { clickMenu14();  var secaoID = "estrategias_argumentativas_v3"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 
-
-
 ///Educação SOCIOLOGIA  
-
 function movimentos_sociais() { clickMenu15(); var secaoID = "movimentos_sociais_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 function sociedade_contemporanea_v1() { clickMenu15();  var secaoID = "sociedade_contemporanea_v1"; var elementoSecao = document.getElementById(secaoID); if (elementoSecao) { var posicaoSecao = elementoSecao.getBoundingClientRect().top; window.scrollTo({ top: window.scrollY + posicaoSecao - 80, behavior: "smooth" }); } else { console.error("ID da seção não encontrado: " + secaoID); } }
 /// Volume 2
@@ -365,7 +343,21 @@ function playError() {
     errorNoise.stop(actx.currentTime + 0.3);
 }
 
+//////////////////Teste Menu novo ///////////////////////////////
+function toggleMenu(menuId, anoId, aulasId) {
+    var menu = document.getElementById(menuId);
+    var menuPrincipal = document.getElementById("menuprincipal");
+    var ano = document.getElementById(anoId);
+    var aulas = document.getElementById(aulasId);
+    // Verifica se o menu está visível
+    var isVisible = window.getComputedStyle(menu).display !== "none";
 
+    // Alterna a visibilidade do menu
+    menu.style.display = isVisible ? "none" : "block";
+    menuPrincipal.style.display = "none";
+    ano.style.display = "block";
+    aulas.style.display = "none";
+}
 
 /////////////////// Voltar ///////////////////////////////////////
 function voltar() {
@@ -376,243 +368,62 @@ function voltar() {
 
 ///////////////////// Menu de ARTES//////////////////////////////
 function clickMenu1() {
-    var menuArt = document.getElementById("ARTES");
-    var menuPrincipal = document.getElementById("menuprincipal");
-    // Verifica se o menu está visível
-    var isVisible = window.getComputedStyle(menuArt).display !== "none";
-
-    // Alterna a visibilidade do menu
-    menuArt.style.display = isVisible ? "none" : "block";
-    menuprincipal.style.display = "none";
-    menuArt.style.display = "block";
-    artesano1.style.display = "block";
-    aulasartes.style.display = "none";
+    toggleMenu("ARTES", "artesano1", "aulasartes");
 }
 
-
-
-///////////////////// Menu de Biologia//////////////////////////////
 function clickMenu2() {
-    var menuBiologia = document.getElementById("BIOLOGIA");
-    var menuPrincipal = document.getElementById("menuprincipal");
-    // Verifica se o menu está visível
-    var isVisible = window.getComputedStyle(menuBiologia).display !== "none";
-
-    // Alterna a visibilidade do menu
-    menuBiologia.style.display = isVisible ? "none" : "block";
-    menuprincipal.style.display = "none";
-    menuBiologia.style.display = "block";
-    biologiano1.style.display = "block";
-    aulasbiologia.style.display = "none";
+    toggleMenu("BIOLOGIA", "biologiano1", "aulasbiologia");
 }
 
-
-///////////////////// Menu de ED FISICA//////////////////////////////
 function clickMenu3() {
-    var menuEdfisica = document.getElementById("EDFISICA");
-    var menuPrincipal = document.getElementById("menuprincipal");
-    // Verifica se o menu está visível
-    var isVisible = window.getComputedStyle(menuEdfisica).display !== "none";
-
-    // Alterna a visibilidade do menu
-    menuEdfisica.style.display = isVisible ? "none" : "block";
-    menuprincipal.style.display = "none";
-    menuEdfisica.style.display = "block";
-    edFisicano1.style.display = "block";
-    aulasedfisica.style.display = "none";
+    toggleMenu("EDFISICA", "edFisicano1", "aulasedfisica");
 }
 
-
-
-
-
-///////////////////// Menu de Espanhol//////////////////////////////
 function clickMenu4() {
-    var menuEspanhol = document.getElementById("ESPANHOL");
-    var menuPrincipal = document.getElementById("menuprincipal");
-    // Verifica se o menu está visível
-    var isVisible = window.getComputedStyle(menuEspanhol).display !== "none";
-
-    // Alterna a visibilidade do menu
-    menuEspanhol.style.display = isVisible ? "none" : "block";
-    menuprincipal.style.display = "none";
-    menuEspanhol.style.display = "block";
-    espanhol_ano1.style.display = "block";
-    aulasespanhol.style.display = "none";
+    toggleMenu("ESPANHOL", "espanhol_ano1", "aulasespanhol");
 }
 
-
-///////////////////// Menu de Filisofia//////////////////////////////
 function clickMenu5() {
-    var menuFilosofia = document.getElementById("FILOSOFIA");
-    var menuPrincipal = document.getElementById("menuprincipal");
-    // Verifica se o menu está visível
-    var isVisible = window.getComputedStyle(menuFilosofia).display !== "none";
-
-    // Alterna a visibilidade do menu
-    menuFilosofia.style.display = isVisible ? "none" : "block";
-    menuprincipal.style.display = "none";
-    menuFilosofia.style.display = "block";
-    filoAno1.style.display = "block";
-    aulasfilosofia.style.display = "none";
+    toggleMenu("FILOSOFIA", "filoAno1", "aulasfilosofia");
 }
 
-
-///////////////////// Menu de FISICA//////////////////////////////
 function clickMenu6() {
-    var menuFisica = document.getElementById("FISICA");
-    var menuPrincipal = document.getElementById("menuprincipal");
-    // Verifica se o menu está visível
-    var isVisible = window.getComputedStyle(menuFisica).display !== "none";
-
-    // Alterna a visibilidade do menu
-    menuFisica.style.display = isVisible ? "none" : "block";
-    menuprincipal.style.display = "none";
-    menuFisica.style.display = "block";
-    fisicaAno1.style.display = "block";
-    aulasfisica.style.display = "none";
+    toggleMenu("FISICA", "fisicaAno1", "aulasfisica");
 }
 
-
-///////////////////// Menu de GEOGRAFIA//////////////////////////////
 function clickMenu7() {
-    var menuGEO = document.getElementById("GEOGRAFIA");
-    var menuPrincipal = document.getElementById("menuprincipal");
-    // Verifica se o menu está visível
-    var isVisible = window.getComputedStyle(menuGEO).display !== "none";
-
-    // Alterna a visibilidade do menu
-    menuGEO.style.display = isVisible ? "none" : "block";
-    menuprincipal.style.display = "none";
-    menuGEO.style.display = "block";
-    geografiaAno1.style.display = "block";
-    aulasgeografia.style.display = "none";
+    toggleMenu("GEOGRAFIA", "geografiaAno1", "aulasgeografia");
 }
 
-///////////////////// Menu de HISTORIA//////////////////////////////
 function clickMenu8() {
-    var menuHis = document.getElementById("HISTORIA");
-    var menuPrincipal = document.getElementById("menuprincipal");
-    // Verifica se o menu está visível
-    var isVisible = window.getComputedStyle(menuHis).display !== "none";
-
-    // Alterna a visibilidade do menu
-    menuHis.style.display = isVisible ? "none" : "block";
-    menuprincipal.style.display = "none";
-    menuHis.style.display = "block";
-    historiaAno1.style.display = "block";
-    aulashistoria.style.display = "none";
+    toggleMenu("HISTORIA", "historiaAno1", "aulashistoria");
 }
 
-///////////////////// Menu de INGLES//////////////////////////////
 function clickMenu9() {
-    var menuing = document.getElementById("INGLES");
-    var menuPrincipal = document.getElementById("menuprincipal");
-    // Verifica se o menu está visível
-    var isVisible = window.getComputedStyle(menuing).display !== "none";
-
-    // Alterna a visibilidade do menu
-    menuing.style.display = isVisible ? "none" : "block";
-    menuprincipal.style.display = "none";
-    menuing.style.display = "block";
-    inglesAno1.style.display = "block";
-    aulasingles.style.display = "none";
+    toggleMenu("INGLES", "inglesAno1", "aulasingles");
 }
 
-
-///////////////////// Menu de LITERATURA//////////////////////////////
 function clickMenu10() {
-    var menuLit = document.getElementById("LITERATURA");
-    var menuPrincipal = document.getElementById("menuprincipal");
-    // Verifica se o menu está visível
-    var isVisible = window.getComputedStyle(menuLit).display !== "none";
-
-    // Alterna a visibilidade do menu
-    menuLit.style.display = isVisible ? "none" : "block";
-    menuprincipal.style.display = "none";
-    menuLit.style.display = "block";
-    literaturaAno1.style.display = "block";
-    aulasliteratura.style.display = "none";
+    toggleMenu("LITERATURA", "literaturaAno1", "aulasliteratura");
 }
 
-
-///////////////////// Menu de Matematica//////////////////////////////
 function clickMenu11() {
-    var menuMate = document.getElementById("MATEMATICA");
-    var menuPrincipal = document.getElementById("menuprincipal");
-    // Verifica se o menu está visível
-    var isVisible = window.getComputedStyle(menuMate).display !== "none";
-
-    // Alterna a visibilidade do menu
-    menuMate.style.display = isVisible ? "none" : "block";
-    menuprincipal.style.display = "none";
-    menuMate.style.display = "block";
-    matematicaAno1.style.display = "block";
-    aulasmatematica.style.display = "none";
+    toggleMenu("MATEMATICA", "matematicaAno1", "aulasmatematica");
 }
 
-
-///////////////////// Menu de Portugues//////////////////////////////
 function clickMenu12() {
-    var menuPor = document.getElementById("PORTUGUES");
-    var menuPrincipal = document.getElementById("menuprincipal");
-    // Verifica se o menu está visível
-    var isVisible = window.getComputedStyle(menuPor).display !== "none";
-
-    // Alterna a visibilidade do menu
-    menuPor.style.display = isVisible ? "none" : "block";
-    menuprincipal.style.display = "none";
-    menuPor.style.display = "block";
-    portuguesAno1.style.display = "block";
-    aulasPORTUGUES.style.display = "none";
+    toggleMenu("PORTUGUES", "portuguesAno1", "aulasPORTUGUES");
 }
 
-
-///////////////////// Menu de QUIMICA//////////////////////////////
 function clickMenu13() {
-    var menuquim = document.getElementById("QUIMICA");
-    var menuPrincipal = document.getElementById("menuprincipal");
-    // Verifica se o menu está visível
-    var isVisible = window.getComputedStyle(menuquim).display !== "none";
-
-    // Alterna a visibilidade do menu
-    menuquim.style.display = isVisible ? "none" : "block";
-    menuprincipal.style.display = "none";
-    menuquim.style.display = "block";
-    quimicaAno1.style.display = "block";
-    aulasquimica.style.display = "none";
+    toggleMenu("QUIMICA", "quimicaAno1", "aulasquimica");
 }
 
-
-///////////////////// Menu de REDAÇÂO//////////////////////////////
 function clickMenu14() {
-    var menuredacao = document.getElementById("REDACAO");
-    var menuPrincipal = document.getElementById("menuprincipal");
-    // Verifica se o menu está visível
-    var isVisible = window.getComputedStyle(menuredacao).display !== "none";
-
-    // Alterna a visibilidade do menu
-    menuredacao.style.display = isVisible ? "none" : "block";
-    menuprincipal.style.display = "none";
-    menuredacao.style.display = "block";
-    redacaoAno1.style.display = "block";
-    aulasredacao.style.display = "none";
+    toggleMenu("REDACAO", "redacaoAno1", "aulasredacao");
 }
 
-///////////////////// Menu de SOCIOLOGIA//////////////////////////////
 function clickMenu15() {
-    var menusociologia = document.getElementById("SOCIOLOGIA");
-    var menuPrincipal = document.getElementById("menuprincipal");
-    // Verifica se o menu está visível
-    var isVisible = window.getComputedStyle(menusociologia).display !== "none";
-
-    // Alterna a visibilidade do menu
-    menusociologia.style.display = isVisible ? "none" : "block";
-    menuprincipal.style.display = "none";
-    menusociologia.style.display = "block";
-    sociologiaAno1.style.display = "block";
-    aulassociologia.style.display = "none";
+    toggleMenu("SOCIOLOGIA", "sociologiaAno1", "aulassociologia");
 }
 verificarFragmento();
-
- 
